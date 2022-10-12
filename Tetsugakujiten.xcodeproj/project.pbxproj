@@ -1,0 +1,1891 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08EF664028F5BE7000F863B2 /* TetsugakujitenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF663F28F5BE7000F863B2 /* TetsugakujitenApp.swift */; };
+		08EF664228F5BE7000F863B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF664128F5BE7000F863B2 /* ContentView.swift */; };
+		08EF664428F5BE7100F863B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08EF664328F5BE7100F863B2 /* Assets.xcassets */; };
+		08EF664728F5BE7100F863B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08EF664628F5BE7100F863B2 /* Preview Assets.xcassets */; };
+		08EF665128F5BE7100F863B2 /* TetsugakujitenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF665028F5BE7100F863B2 /* TetsugakujitenTests.swift */; };
+		08EF665B28F5BE7100F863B2 /* TetsugakujitenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF665A28F5BE7100F863B2 /* TetsugakujitenUITests.swift */; };
+		08EF665D28F5BE7100F863B2 /* TetsugakujitenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF665C28F5BE7100F863B2 /* TetsugakujitenUITestsLaunchTests.swift */; };
+		08EF666D28F5C27600F863B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08EF666C28F5C27600F863B2 /* GoogleService-Info.plist */; };
+		08EF667128F5C32F00F863B2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF667028F5C32F00F863B2 /* FirebaseAnalytics */; };
+		08EF667328F5C32F00F863B2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF667228F5C32F00F863B2 /* FirebaseAnalyticsOnDeviceConversion */; };
+		08EF667528F5C32F00F863B2 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF667428F5C32F00F863B2 /* FirebaseAnalyticsSwift */; };
+		08EF667728F5C32F00F863B2 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF667628F5C32F00F863B2 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		08EF667928F5C32F00F863B2 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF667828F5C32F00F863B2 /* FirebaseAppCheck */; };
+		08EF667B28F5C32F00F863B2 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF667A28F5C32F00F863B2 /* FirebaseAppDistribution-Beta */; };
+		08EF667D28F5C32F00F863B2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF667C28F5C32F00F863B2 /* FirebaseAuth */; };
+		08EF667F28F5C32F00F863B2 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF667E28F5C32F00F863B2 /* FirebaseAuthCombine-Community */; };
+		08EF668128F5C32F00F863B2 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF668028F5C32F00F863B2 /* FirebaseCrashlytics */; };
+		08EF668328F5C32F00F863B2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF668228F5C32F00F863B2 /* FirebaseDatabase */; };
+		08EF668528F5C32F00F863B2 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF668428F5C32F00F863B2 /* FirebaseDatabaseSwift */; };
+		08EF668728F5C32F00F863B2 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF668628F5C32F00F863B2 /* FirebaseDynamicLinks */; };
+		08EF668928F5C32F00F863B2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF668828F5C32F00F863B2 /* FirebaseFirestore */; };
+		08EF668B28F5C32F00F863B2 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF668A28F5C32F00F863B2 /* FirebaseFirestoreCombine-Community */; };
+		08EF668D28F5C32F00F863B2 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF668C28F5C32F00F863B2 /* FirebaseFirestoreSwift */; };
+		08EF668F28F5C32F00F863B2 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF668E28F5C32F00F863B2 /* FirebaseFunctions */; };
+		08EF669128F5C32F00F863B2 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF669028F5C32F00F863B2 /* FirebaseFunctionsCombine-Community */; };
+		08EF669328F5C32F00F863B2 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF669228F5C32F00F863B2 /* FirebaseInAppMessaging-Beta */; };
+		08EF669528F5C32F00F863B2 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF669428F5C32F00F863B2 /* FirebaseInAppMessagingSwift-Beta */; };
+		08EF669728F5C32F00F863B2 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF669628F5C32F00F863B2 /* FirebaseInstallations */; };
+		08EF669928F5C32F00F863B2 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF669828F5C32F00F863B2 /* FirebaseMessaging */; };
+		08EF669B28F5C32F00F863B2 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF669A28F5C32F00F863B2 /* FirebaseMLModelDownloader */; };
+		08EF669D28F5C32F00F863B2 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF669C28F5C32F00F863B2 /* FirebasePerformance */; };
+		08EF669F28F5C33000F863B2 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF669E28F5C33000F863B2 /* FirebaseRemoteConfig */; };
+		08EF66A128F5C33000F863B2 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF66A028F5C33000F863B2 /* FirebaseRemoteConfigSwift */; };
+		08EF66A328F5C33000F863B2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF66A228F5C33000F863B2 /* FirebaseStorage */; };
+		08EF66A528F5C33000F863B2 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 08EF66A428F5C33000F863B2 /* FirebaseStorageCombine-Community */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08EF664D28F5BE7100F863B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08EF663428F5BE7000F863B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08EF663B28F5BE7000F863B2;
+			remoteInfo = Tetsugakujiten;
+		};
+		08EF665728F5BE7100F863B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08EF663428F5BE7000F863B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08EF663B28F5BE7000F863B2;
+			remoteInfo = Tetsugakujiten;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08EF663C28F5BE7000F863B2 /* Tetsugakujiten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetsugakujiten.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EF663F28F5BE7000F863B2 /* TetsugakujitenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetsugakujitenApp.swift; sourceTree = "<group>"; };
+		08EF664128F5BE7000F863B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08EF664328F5BE7100F863B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08EF664628F5BE7100F863B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08EF664C28F5BE7100F863B2 /* TetsugakujitenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetsugakujitenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EF665028F5BE7100F863B2 /* TetsugakujitenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetsugakujitenTests.swift; sourceTree = "<group>"; };
+		08EF665628F5BE7100F863B2 /* TetsugakujitenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetsugakujitenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08EF665A28F5BE7100F863B2 /* TetsugakujitenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetsugakujitenUITests.swift; sourceTree = "<group>"; };
+		08EF665C28F5BE7100F863B2 /* TetsugakujitenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetsugakujitenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		08EF666C28F5C27600F863B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		08EF66A628F5C33000F863B2 /* libswiftMetricKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftMetricKit.tbd; path = usr/lib/swift/libswiftMetricKit.tbd; sourceTree = SDKROOT; };
+		08EF66A728F5C33000F863B2 /* libapp_launch_measurement.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libapp_launch_measurement.tbd; path = usr/lib/libapp_launch_measurement.tbd; sourceTree = SDKROOT; };
+		08EF66A828F5C33000F863B2 /* libETLDMCDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libETLDMCDynamic.tbd; path = usr/lib/libETLDMCDynamic.tbd; sourceTree = SDKROOT; };
+		08EF66A928F5C33000F863B2 /* libBasebandDiagnostic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libBasebandDiagnostic.tbd; path = usr/lib/libBasebandDiagnostic.tbd; sourceTree = SDKROOT; };
+		08EF66AA28F5C33000F863B2 /* libAHTRestore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAHTRestore.tbd; path = usr/lib/libAHTRestore.tbd; sourceTree = SDKROOT; };
+		08EF66AB28F5C33000F863B2 /* ManagedSettings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettings.framework; path = System/Library/Frameworks/ManagedSettings.framework; sourceTree = SDKROOT; };
+		08EF66AC28F5C33000F863B2 /* libswiftHomeKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftHomeKit.tbd; path = usr/lib/swift/libswiftHomeKit.tbd; sourceTree = SDKROOT; };
+		08EF66AD28F5C33000F863B2 /* libskit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libskit.tbd; path = usr/lib/libskit.tbd; sourceTree = SDKROOT; };
+		08EF66AE28F5C33000F863B2 /* AppIntents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppIntents.framework; path = System/Library/Frameworks/AppIntents.framework; sourceTree = SDKROOT; };
+		08EF66AF28F5C33000F863B2 /* libmenu.5.4.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libmenu.5.4.tbd; path = usr/lib/libmenu.5.4.tbd; sourceTree = SDKROOT; };
+		08EF66B028F5C33000F863B2 /* GroupActivities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GroupActivities.framework; path = System/Library/Frameworks/GroupActivities.framework; sourceTree = SDKROOT; };
+		08EF66B128F5C33000F863B2 /* SoundAnalysis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SoundAnalysis.framework; path = System/Library/Frameworks/SoundAnalysis.framework; sourceTree = SDKROOT; };
+		08EF66B228F5C33100F863B2 /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
+		08EF66B328F5C33100F863B2 /* libmdns.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libmdns.tbd; path = usr/lib/libmdns.tbd; sourceTree = SDKROOT; };
+		08EF66B428F5C33100F863B2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		08EF66B528F5C33100F863B2 /* libswiftDataDetection.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftDataDetection.tbd; path = usr/lib/swift/libswiftDataDetection.tbd; sourceTree = SDKROOT; };
+		08EF66B628F5C33100F863B2 /* ModelIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ModelIO.framework; path = System/Library/Frameworks/ModelIO.framework; sourceTree = SDKROOT; };
+		08EF66B728F5C33100F863B2 /* libswiftModelIO.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftModelIO.tbd; path = usr/lib/swift/libswiftModelIO.tbd; sourceTree = SDKROOT; };
+		08EF66B828F5C33100F863B2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		08EF66B928F5C33100F863B2 /* CoreAudioTypes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioTypes.framework; path = System/Library/Frameworks/CoreAudioTypes.framework; sourceTree = SDKROOT; };
+		08EF66BA28F5C33100F863B2 /* libswiftAuthenticationServicesSwiftSDKOverlay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswiftAuthenticationServicesSwiftSDKOverlay.a; path = usr/lib/swift/libswiftAuthenticationServicesSwiftSDKOverlay.a; sourceTree = SDKROOT; };
+		08EF66BB28F5C33100F863B2 /* libomadm.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libomadm.tbd; path = usr/lib/libomadm.tbd; sourceTree = SDKROOT; };
+		08EF66BC28F5C33100F863B2 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		08EF66BD28F5C33100F863B2 /* libswiftAssetsLibrary.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftAssetsLibrary.tbd; path = usr/lib/swift/libswiftAssetsLibrary.tbd; sourceTree = SDKROOT; };
+		08EF66BE28F5C33100F863B2 /* libBBUpdaterDynamic_stubs.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libBBUpdaterDynamic_stubs.tbd; path = usr/lib/libBBUpdaterDynamic_stubs.tbd; sourceTree = SDKROOT; };
+		08EF66BF28F5C33100F863B2 /* libswiftCoreMedia.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCoreMedia.tbd; path = usr/lib/swift/libswiftCoreMedia.tbd; sourceTree = SDKROOT; };
+		08EF66C028F5C33100F863B2 /* libmecabra.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libmecabra.tbd; path = usr/lib/libmecabra.tbd; sourceTree = SDKROOT; };
+		08EF66C128F5C33100F863B2 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		08EF66C228F5C33100F863B2 /* libswiftCoreFoundation.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCoreFoundation.tbd; path = usr/lib/swift/libswiftCoreFoundation.tbd; sourceTree = SDKROOT; };
+		08EF66C328F5C33100F863B2 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		08EF66C428F5C33100F863B2 /* libmorphun.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libmorphun.tbd; path = usr/lib/libmorphun.tbd; sourceTree = SDKROOT; };
+		08EF66C528F5C33100F863B2 /* libexpat.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libexpat.1.tbd; path = usr/lib/libexpat.1.tbd; sourceTree = SDKROOT; };
+		08EF66C628F5C33100F863B2 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		08EF66C728F5C33100F863B2 /* libETLDIAGLoggingDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libETLDIAGLoggingDynamic.tbd; path = usr/lib/libETLDIAGLoggingDynamic.tbd; sourceTree = SDKROOT; };
+		08EF66C828F5C33100F863B2 /* libmarisa.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libmarisa.tbd; path = usr/lib/libmarisa.tbd; sourceTree = SDKROOT; };
+		08EF66C928F5C33100F863B2 /* libPCITransport.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libPCITransport.tbd; path = usr/lib/libPCITransport.tbd; sourceTree = SDKROOT; };
+		08EF66CA28F5C33100F863B2 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		08EF66CB28F5C33100F863B2 /* libswiftCoreMIDI.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCoreMIDI.tbd; path = usr/lib/swift/libswiftCoreMIDI.tbd; sourceTree = SDKROOT; };
+		08EF66CC28F5C33100F863B2 /* PHASE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PHASE.framework; path = System/Library/Frameworks/PHASE.framework; sourceTree = SDKROOT; };
+		08EF66CD28F5C33100F863B2 /* libfire6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libfire6.tbd; path = usr/lib/libfire6.tbd; sourceTree = SDKROOT; };
+		08EF66CE28F5C33100F863B2 /* libutil.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libutil.tbd; path = usr/lib/libutil.tbd; sourceTree = SDKROOT; };
+		08EF66CF28F5C33100F863B2 /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
+		08EF66D028F5C33100F863B2 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		08EF66D128F5C33100F863B2 /* libcompression.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcompression.tbd; path = usr/lib/libcompression.tbd; sourceTree = SDKROOT; };
+		08EF66D228F5C33100F863B2 /* libcanary_os.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcanary_os.tbd; path = usr/lib/libcanary_os.tbd; sourceTree = SDKROOT; };
+		08EF66D328F5C33100F863B2 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		08EF66D428F5C33100F863B2 /* libnetwork.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libnetwork.tbd; path = usr/lib/libnetwork.tbd; sourceTree = SDKROOT; };
+		08EF66D528F5C33200F863B2 /* libNFC_HAL.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libNFC_HAL.tbd; path = usr/lib/libNFC_HAL.tbd; sourceTree = SDKROOT; };
+		08EF66D628F5C33200F863B2 /* libCTGreenTeaLogger.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libCTGreenTeaLogger.tbd; path = usr/lib/libCTGreenTeaLogger.tbd; sourceTree = SDKROOT; };
+		08EF66D728F5C33200F863B2 /* libAXSpeechManager.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAXSpeechManager.tbd; path = usr/lib/libAXSpeechManager.tbd; sourceTree = SDKROOT; };
+		08EF66D828F5C33200F863B2 /* libpanel.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpanel.tbd; path = usr/lib/libpanel.tbd; sourceTree = SDKROOT; };
+		08EF66D928F5C33200F863B2 /* libfire7.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libfire7.tbd; path = usr/lib/libfire7.tbd; sourceTree = SDKROOT; };
+		08EF66DA28F5C33200F863B2 /* libpthread.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpthread.tbd; path = usr/lib/libpthread.tbd; sourceTree = SDKROOT; };
+		08EF66DB28F5C33200F863B2 /* HealthKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKitUI.framework; path = System/Library/Frameworks/HealthKitUI.framework; sourceTree = SDKROOT; };
+		08EF66DC28F5C33200F863B2 /* libETLDLOADCoreDumpDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libETLDLOADCoreDumpDynamic.tbd; path = usr/lib/libETLDLOADCoreDumpDynamic.tbd; sourceTree = SDKROOT; };
+		08EF66DD28F5C33200F863B2 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		08EF66DE28F5C33200F863B2 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		08EF66DF28F5C33200F863B2 /* libmav_ipc_router_dynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libmav_ipc_router_dynamic.tbd; path = usr/lib/libmav_ipc_router_dynamic.tbd; sourceTree = SDKROOT; };
+		08EF66E028F5C33200F863B2 /* libH5Dynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libH5Dynamic.tbd; path = usr/lib/libH5Dynamic.tbd; sourceTree = SDKROOT; };
+		08EF66E128F5C33200F863B2 /* libncurses.5.4.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libncurses.5.4.tbd; path = usr/lib/libncurses.5.4.tbd; sourceTree = SDKROOT; };
+		08EF66E228F5C33200F863B2 /* libswiftPencilKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftPencilKit.tbd; path = usr/lib/swift/libswiftPencilKit.tbd; sourceTree = SDKROOT; };
+		08EF66E328F5C33200F863B2 /* libSpatial.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSpatial.tbd; path = usr/lib/libSpatial.tbd; sourceTree = SDKROOT; };
+		08EF66E428F5C33200F863B2 /* libcmark-gfm.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libcmark-gfm.tbd"; path = "usr/lib/libcmark-gfm.tbd"; sourceTree = SDKROOT; };
+		08EF66E528F5C33200F863B2 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		08EF66E628F5C33200F863B2 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		08EF66E728F5C33200F863B2 /* libbsm.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbsm.tbd; path = usr/lib/libbsm.tbd; sourceTree = SDKROOT; };
+		08EF66E828F5C33200F863B2 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		08EF66E928F5C33200F863B2 /* libncurses.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libncurses.tbd; path = usr/lib/libncurses.tbd; sourceTree = SDKROOT; };
+		08EF66EA28F5C33200F863B2 /* libexslt.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libexslt.0.tbd; path = usr/lib/libexslt.0.tbd; sourceTree = SDKROOT; };
+		08EF66EB28F5C33200F863B2 /* libswiftHealthKit_Private.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftHealthKit_Private.tbd; path = usr/lib/swift/libswiftHealthKit_Private.tbd; sourceTree = SDKROOT; };
+		08EF66EC28F5C33200F863B2 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		08EF66ED28F5C33200F863B2 /* libSoftwareUpdateSSO.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSoftwareUpdateSSO.tbd; path = usr/lib/libSoftwareUpdateSSO.tbd; sourceTree = SDKROOT; };
+		08EF66EE28F5C33200F863B2 /* libpanel.5.4.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpanel.5.4.tbd; path = usr/lib/libpanel.5.4.tbd; sourceTree = SDKROOT; };
+		08EF66EF28F5C33200F863B2 /* libswift_Concurrency.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswift_Concurrency.tbd; path = usr/lib/swift/libswift_Concurrency.tbd; sourceTree = SDKROOT; };
+		08EF66F028F5C33200F863B2 /* libxpc_datastores.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxpc_datastores.tbd; path = usr/lib/libxpc_datastores.tbd; sourceTree = SDKROOT; };
+		08EF66F128F5C33200F863B2 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		08EF66F228F5C33200F863B2 /* libInFieldCollection.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libInFieldCollection.tbd; path = usr/lib/libInFieldCollection.tbd; sourceTree = SDKROOT; };
+		08EF66F328F5C33200F863B2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		08EF66F428F5C33200F863B2 /* libBasebandCapabilities.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libBasebandCapabilities.tbd; path = usr/lib/libBasebandCapabilities.tbd; sourceTree = SDKROOT; };
+		08EF66F528F5C33200F863B2 /* FamilyControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FamilyControls.framework; path = System/Library/Frameworks/FamilyControls.framework; sourceTree = SDKROOT; };
+		08EF66F628F5C33300F863B2 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		08EF66F728F5C33300F863B2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		08EF66F828F5C33300F863B2 /* libARI.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libARI.tbd; path = usr/lib/libARI.tbd; sourceTree = SDKROOT; };
+		08EF66F928F5C33300F863B2 /* libIOABP.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libIOABP.tbd; path = usr/lib/libIOABP.tbd; sourceTree = SDKROOT; };
+		08EF66FA28F5C33300F863B2 /* libswiftPhotosUI.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftPhotosUI.tbd; path = usr/lib/swift/libswiftPhotosUI.tbd; sourceTree = SDKROOT; };
+		08EF66FB28F5C33300F863B2 /* libcoretls_cfhelpers.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcoretls_cfhelpers.tbd; path = usr/lib/libcoretls_cfhelpers.tbd; sourceTree = SDKROOT; };
+		08EF66FC28F5C33300F863B2 /* libswiftDispatch.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftDispatch.tbd; path = usr/lib/swift/libswiftDispatch.tbd; sourceTree = SDKROOT; };
+		08EF66FD28F5C33300F863B2 /* libSMC.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSMC.tbd; path = usr/lib/libSMC.tbd; sourceTree = SDKROOT; };
+		08EF66FE28F5C33300F863B2 /* libSystem_asan.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem_asan.tbd; path = usr/lib/libSystem_asan.tbd; sourceTree = SDKROOT; };
+		08EF66FF28F5C33300F863B2 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		08EF670028F5C33300F863B2 /* libswiftsimd.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftsimd.tbd; path = usr/lib/swift/libswiftsimd.tbd; sourceTree = SDKROOT; };
+		08EF670128F5C33300F863B2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		08EF670228F5C33300F863B2 /* libTelephonyUtilDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libTelephonyUtilDynamic.tbd; path = usr/lib/libTelephonyUtilDynamic.tbd; sourceTree = SDKROOT; };
+		08EF670328F5C33300F863B2 /* ImageCaptureCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageCaptureCore.framework; path = System/Library/Frameworks/ImageCaptureCore.framework; sourceTree = SDKROOT; };
+		08EF670428F5C33300F863B2 /* libmobileassetd.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libmobileassetd.tbd; path = usr/lib/libmobileassetd.tbd; sourceTree = SDKROOT; };
+		08EF670528F5C33300F863B2 /* MetricKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetricKit.framework; path = System/Library/Frameworks/MetricKit.framework; sourceTree = SDKROOT; };
+		08EF670628F5C33300F863B2 /* libBasebandCommandDrivers.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libBasebandCommandDrivers.tbd; path = usr/lib/libBasebandCommandDrivers.tbd; sourceTree = SDKROOT; };
+		08EF670728F5C33300F863B2 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		08EF670828F5C33300F863B2 /* libswift_RegexParser.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswift_RegexParser.tbd; path = usr/lib/swift/libswift_RegexParser.tbd; sourceTree = SDKROOT; };
+		08EF670928F5C33300F863B2 /* libswiftHealthKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftHealthKit.tbd; path = usr/lib/swift/libswiftHealthKit.tbd; sourceTree = SDKROOT; };
+		08EF670A28F5C33300F863B2 /* libbz2.1.0.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.8.tbd; path = usr/lib/libbz2.1.0.8.tbd; sourceTree = SDKROOT; };
+		08EF670B28F5C33300F863B2 /* libdns_services.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libdns_services.tbd; path = usr/lib/libdns_services.tbd; sourceTree = SDKROOT; };
+		08EF670C28F5C33300F863B2 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		08EF670D28F5C33300F863B2 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		08EF670E28F5C33300F863B2 /* libdpfu.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libdpfu.tbd; path = usr/lib/libdpfu.tbd; sourceTree = SDKROOT; };
+		08EF670F28F5C33300F863B2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		08EF671028F5C33300F863B2 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		08EF671128F5C33300F863B2 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
+		08EF671228F5C33300F863B2 /* libcmark-gfm-extensions.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libcmark-gfm-extensions.tbd"; path = "usr/lib/libcmark-gfm-extensions.tbd"; sourceTree = SDKROOT; };
+		08EF671328F5C33300F863B2 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		08EF671428F5C33300F863B2 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		08EF671528F5C33400F863B2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		08EF671628F5C33400F863B2 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
+		08EF671728F5C33400F863B2 /* CreateML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CreateML.framework; path = System/Library/Frameworks/CreateML.framework; sourceTree = SDKROOT; };
+		08EF671828F5C33400F863B2 /* libapple_nghttp2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libapple_nghttp2.tbd; path = usr/lib/libapple_nghttp2.tbd; sourceTree = SDKROOT; };
+		08EF671928F5C33400F863B2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		08EF671A28F5C33400F863B2 /* libswiftSpriteKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftSpriteKit.tbd; path = usr/lib/swift/libswiftSpriteKit.tbd; sourceTree = SDKROOT; };
+		08EF671B28F5C33400F863B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08EF671C28F5C33400F863B2 /* SharedWithYou.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharedWithYou.framework; path = System/Library/Frameworks/SharedWithYou.framework; sourceTree = SDKROOT; };
+		08EF671D28F5C33400F863B2 /* libswiftCompression.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCompression.tbd; path = usr/lib/swift/libswiftCompression.tbd; sourceTree = SDKROOT; };
+		08EF671E28F5C33400F863B2 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		08EF671F28F5C33400F863B2 /* libtailspin.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libtailspin.tbd; path = usr/lib/libtailspin.tbd; sourceTree = SDKROOT; };
+		08EF672028F5C33400F863B2 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		08EF672128F5C33400F863B2 /* libarchive.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libarchive.2.tbd; path = usr/lib/libarchive.2.tbd; sourceTree = SDKROOT; };
+		08EF672228F5C33400F863B2 /* libswiftSoundAnalysis.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftSoundAnalysis.tbd; path = usr/lib/swift/libswiftSoundAnalysis.tbd; sourceTree = SDKROOT; };
+		08EF672328F5C33400F863B2 /* libswiftCoreData.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCoreData.tbd; path = usr/lib/swift/libswiftCoreData.tbd; sourceTree = SDKROOT; };
+		08EF672428F5C33400F863B2 /* RealityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityKit.framework; path = System/Library/Frameworks/RealityKit.framework; sourceTree = SDKROOT; };
+		08EF672528F5C33400F863B2 /* libAWDProtobufGCK.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAWDProtobufGCK.tbd; path = usr/lib/libAWDProtobufGCK.tbd; sourceTree = SDKROOT; };
+		08EF672628F5C33400F863B2 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		08EF672728F5C33400F863B2 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		08EF672828F5C33400F863B2 /* libswiftIntents.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftIntents.tbd; path = usr/lib/swift/libswiftIntents.tbd; sourceTree = SDKROOT; };
+		08EF672928F5C33400F863B2 /* libcryptex_trampoline.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcryptex_trampoline.tbd; path = usr/lib/libcryptex_trampoline.tbd; sourceTree = SDKROOT; };
+		08EF672A28F5C33400F863B2 /* MetalFX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalFX.framework; path = System/Library/Frameworks/MetalFX.framework; sourceTree = SDKROOT; };
+		08EF672B28F5C33400F863B2 /* ExposureNotification.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExposureNotification.framework; path = System/Library/Frameworks/ExposureNotification.framework; sourceTree = SDKROOT; };
+		08EF672C28F5C33400F863B2 /* libHDLCDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libHDLCDynamic.tbd; path = usr/lib/libHDLCDynamic.tbd; sourceTree = SDKROOT; };
+		08EF672D28F5C33400F863B2 /* libETLEFSDumpDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libETLEFSDumpDynamic.tbd; path = usr/lib/libETLEFSDumpDynamic.tbd; sourceTree = SDKROOT; };
+		08EF672E28F5C33400F863B2 /* libffi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libffi.tbd; path = Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.0.sdk/usr/lib/libffi.tbd; sourceTree = DEVELOPER_DIR; };
+		08EF672F28F5C33400F863B2 /* libform.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libform.tbd; path = usr/lib/libform.tbd; sourceTree = SDKROOT; };
+		08EF673028F5C33400F863B2 /* NaturalLanguage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguage.framework; path = System/Library/Frameworks/NaturalLanguage.framework; sourceTree = SDKROOT; };
+		08EF673128F5C33500F863B2 /* libswiftPhotos.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftPhotos.tbd; path = usr/lib/swift/libswiftPhotos.tbd; sourceTree = SDKROOT; };
+		08EF673228F5C33500F863B2 /* libdbm.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libdbm.tbd; path = usr/lib/libdbm.tbd; sourceTree = SDKROOT; };
+		08EF673328F5C33500F863B2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		08EF673428F5C33500F863B2 /* libsandbox.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsandbox.1.tbd; path = usr/lib/libsandbox.1.tbd; sourceTree = SDKROOT; };
+		08EF673528F5C33500F863B2 /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
+		08EF673628F5C33500F863B2 /* libswiftFoundation.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftFoundation.tbd; path = usr/lib/swift/libswiftFoundation.tbd; sourceTree = SDKROOT; };
+		08EF673728F5C33500F863B2 /* libDHCPServer.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libDHCPServer.A.tbd; path = usr/lib/libDHCPServer.A.tbd; sourceTree = SDKROOT; };
+		08EF673828F5C33500F863B2 /* ShazamKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShazamKit.framework; path = System/Library/Frameworks/ShazamKit.framework; sourceTree = SDKROOT; };
+		08EF673928F5C33500F863B2 /* libSLAMDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSLAMDynamic.tbd; path = usr/lib/libSLAMDynamic.tbd; sourceTree = SDKROOT; };
+		08EF673A28F5C33500F863B2 /* libSystem.B.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.B.tbd; path = usr/lib/libSystem.B.tbd; sourceTree = SDKROOT; };
+		08EF673B28F5C33500F863B2 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		08EF673C28F5C33500F863B2 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		08EF673D28F5C33500F863B2 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		08EF673E28F5C33500F863B2 /* libswift_StringProcessing.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswift_StringProcessing.tbd; path = usr/lib/swift/libswift_StringProcessing.tbd; sourceTree = SDKROOT; };
+		08EF673F28F5C33500F863B2 /* libAudioIssueDetector.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAudioIssueDetector.tbd; path = usr/lib/libAudioIssueDetector.tbd; sourceTree = SDKROOT; };
+		08EF674028F5C33500F863B2 /* InterfaceBuilderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilderKit.framework; path = Library/Frameworks/InterfaceBuilderKit.framework; sourceTree = DEVELOPER_DIR; };
+		08EF674128F5C33500F863B2 /* libnwswifttls.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libnwswifttls.tbd; path = usr/lib/libnwswifttls.tbd; sourceTree = SDKROOT; };
+		08EF674228F5C33500F863B2 /* libtzupdate.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libtzupdate.tbd; path = usr/lib/libtzupdate.tbd; sourceTree = SDKROOT; };
+		08EF674328F5C33500F863B2 /* MediaSetup.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaSetup.framework; path = System/Library/Frameworks/MediaSetup.framework; sourceTree = SDKROOT; };
+		08EF674428F5C33500F863B2 /* ScreenTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenTime.framework; path = System/Library/Frameworks/ScreenTime.framework; sourceTree = SDKROOT; };
+		08EF674528F5C33500F863B2 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		08EF674628F5C33500F863B2 /* libNFC_Comet.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libNFC_Comet.tbd; path = usr/lib/libNFC_Comet.tbd; sourceTree = SDKROOT; };
+		08EF674728F5C33500F863B2 /* libexpat.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libexpat.tbd; path = usr/lib/libexpat.tbd; sourceTree = SDKROOT; };
+		08EF674828F5C33500F863B2 /* libBKDM1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libBKDM1.tbd; path = usr/lib/libBKDM1.tbd; sourceTree = SDKROOT; };
+		08EF674928F5C33500F863B2 /* libnetquality.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libnetquality.tbd; path = usr/lib/libnetquality.tbd; sourceTree = SDKROOT; };
+		08EF674A28F5C33500F863B2 /* libolaf.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libolaf.tbd; path = usr/lib/libolaf.tbd; sourceTree = SDKROOT; };
+		08EF674B28F5C33500F863B2 /* TabularData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TabularData.framework; path = System/Library/Frameworks/TabularData.framework; sourceTree = SDKROOT; };
+		08EF674C28F5C33600F863B2 /* libAWDProtobufBluetooth.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAWDProtobufBluetooth.tbd; path = usr/lib/libAWDProtobufBluetooth.tbd; sourceTree = SDKROOT; };
+		08EF674D28F5C33600F863B2 /* libETLDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libETLDynamic.tbd; path = usr/lib/libETLDynamic.tbd; sourceTree = SDKROOT; };
+		08EF674E28F5C33600F863B2 /* libgermantok.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libgermantok.tbd; path = usr/lib/libgermantok.tbd; sourceTree = SDKROOT; };
+		08EF674F28F5C33600F863B2 /* DeviceCheck.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceCheck.framework; path = System/Library/Frameworks/DeviceCheck.framework; sourceTree = SDKROOT; };
+		08EF675028F5C33600F863B2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		08EF675128F5C33600F863B2 /* libswiftQuickLook.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftQuickLook.tbd; path = usr/lib/swift/libswiftQuickLook.tbd; sourceTree = SDKROOT; };
+		08EF675228F5C33600F863B2 /* libcryptex.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcryptex.tbd; path = usr/lib/libcryptex.tbd; sourceTree = SDKROOT; };
+		08EF675328F5C33700F863B2 /* libswiftDemangle.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftDemangle.tbd; path = usr/lib/swift/libswiftDemangle.tbd; sourceTree = SDKROOT; };
+		08EF675428F5C33800F863B2 /* libarchive.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libarchive.tbd; path = usr/lib/libarchive.tbd; sourceTree = SDKROOT; };
+		08EF675528F5C33900F863B2 /* libTelephonyIOKitDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libTelephonyIOKitDynamic.tbd; path = usr/lib/libTelephonyIOKitDynamic.tbd; sourceTree = SDKROOT; };
+		08EF675628F5C33900F863B2 /* libswiftMetal.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftMetal.tbd; path = usr/lib/swift/libswiftMetal.tbd; sourceTree = SDKROOT; };
+		08EF675728F5C33900F863B2 /* ClassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ClassKit.framework; path = System/Library/Frameworks/ClassKit.framework; sourceTree = SDKROOT; };
+		08EF675828F5C33900F863B2 /* libdscsym.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libdscsym.tbd; path = usr/lib/libdscsym.tbd; sourceTree = SDKROOT; };
+		08EF675928F5C33900F863B2 /* libAppleEXR.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAppleEXR.tbd; path = usr/lib/libAppleEXR.tbd; sourceTree = SDKROOT; };
+		08EF675A28F5C33900F863B2 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		08EF675B28F5C33900F863B2 /* libUSBCfwflasher.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libUSBCfwflasher.tbd; path = usr/lib/libUSBCfwflasher.tbd; sourceTree = SDKROOT; };
+		08EF675C28F5C33900F863B2 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		08EF675D28F5C33900F863B2 /* ManagedSettingsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettingsUI.framework; path = System/Library/Frameworks/ManagedSettingsUI.framework; sourceTree = SDKROOT; };
+		08EF675E28F5C33900F863B2 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		08EF675F28F5C33900F863B2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		08EF676028F5C33900F863B2 /* libtidy.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libtidy.tbd; path = usr/lib/libtidy.tbd; sourceTree = SDKROOT; };
+		08EF676128F5C33900F863B2 /* libUSBTransport.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libUSBTransport.tbd; path = usr/lib/libUSBTransport.tbd; sourceTree = SDKROOT; };
+		08EF676228F5C33900F863B2 /* SensorKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SensorKit.framework; path = System/Library/Frameworks/SensorKit.framework; sourceTree = SDKROOT; };
+		08EF676328F5C33900F863B2 /* libswiftGameplayKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftGameplayKit.tbd; path = usr/lib/swift/libswiftGameplayKit.tbd; sourceTree = SDKROOT; };
+		08EF676428F5C33900F863B2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		08EF676528F5C33900F863B2 /* libimg4.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libimg4.tbd; path = usr/lib/libimg4.tbd; sourceTree = SDKROOT; };
+		08EF676628F5C33900F863B2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		08EF676728F5C33A00F863B2 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		08EF676828F5C33A00F863B2 /* libedit.3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libedit.3.0.tbd; path = usr/lib/libedit.3.0.tbd; sourceTree = SDKROOT; };
+		08EF676928F5C33A00F863B2 /* libcharset.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcharset.1.tbd; path = usr/lib/libcharset.1.tbd; sourceTree = SDKROOT; };
+		08EF676A28F5C33A00F863B2 /* libproc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libproc.tbd; path = usr/lib/libproc.tbd; sourceTree = SDKROOT; };
+		08EF676B28F5C33A00F863B2 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		08EF676C28F5C33A00F863B2 /* libpartition2_dynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpartition2_dynamic.tbd; path = usr/lib/libpartition2_dynamic.tbd; sourceTree = SDKROOT; };
+		08EF676D28F5C33A00F863B2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		08EF676E28F5C33A00F863B2 /* libIOACIPC.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libIOACIPC.tbd; path = usr/lib/libIOACIPC.tbd; sourceTree = SDKROOT; };
+		08EF676F28F5C33A00F863B2 /* libxslt.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxslt.tbd; path = usr/lib/libxslt.tbd; sourceTree = SDKROOT; };
+		08EF677028F5C33A00F863B2 /* libETLDLOADDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libETLDLOADDynamic.tbd; path = usr/lib/libETLDLOADDynamic.tbd; sourceTree = SDKROOT; };
+		08EF677128F5C33A00F863B2 /* libSystemHealth.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystemHealth.tbd; path = usr/lib/libSystemHealth.tbd; sourceTree = SDKROOT; };
+		08EF677228F5C33A00F863B2 /* FileProviderUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileProviderUI.framework; path = System/Library/Frameworks/FileProviderUI.framework; sourceTree = SDKROOT; };
+		08EF677328F5C33A00F863B2 /* libKTLDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libKTLDynamic.tbd; path = usr/lib/libKTLDynamic.tbd; sourceTree = SDKROOT; };
+		08EF677428F5C33B00F863B2 /* SharedWithYouCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharedWithYouCore.framework; path = System/Library/Frameworks/SharedWithYouCore.framework; sourceTree = SDKROOT; };
+		08EF677528F5C33B00F863B2 /* libgmalloc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libgmalloc.tbd; path = usr/lib/libgmalloc.tbd; sourceTree = SDKROOT; };
+		08EF677628F5C33B00F863B2 /* libipconfig.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libipconfig.tbd; path = usr/lib/libipconfig.tbd; sourceTree = SDKROOT; };
+		08EF677728F5C33B00F863B2 /* libexslt.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libexslt.tbd; path = usr/lib/libexslt.tbd; sourceTree = SDKROOT; };
+		08EF677828F5C33B00F863B2 /* libnfstorage.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libnfstorage.tbd; path = usr/lib/libnfstorage.tbd; sourceTree = SDKROOT; };
+		08EF677928F5C33B00F863B2 /* libcoreroutine.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcoreroutine.tbd; path = usr/lib/libcoreroutine.tbd; sourceTree = SDKROOT; };
+		08EF677A28F5C33B00F863B2 /* ~libswiftPencilKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "~libswiftPencilKit.tbd"; path = "usr/lib/swift/~libswiftPencilKit.tbd"; sourceTree = SDKROOT; };
+		08EF677B28F5C33B00F863B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08EF677C28F5C33B00F863B2 /* libIOACIPCBB.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libIOACIPCBB.tbd; path = usr/lib/libIOACIPCBB.tbd; sourceTree = SDKROOT; };
+		08EF677D28F5C33B00F863B2 /* libmrc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libmrc.tbd; path = usr/lib/libmrc.tbd; sourceTree = SDKROOT; };
+		08EF677E28F5C33B00F863B2 /* BusinessChat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BusinessChat.framework; path = System/Library/Frameworks/BusinessChat.framework; sourceTree = SDKROOT; };
+		08EF677F28F5C33B00F863B2 /* libprotobuf.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libprotobuf.tbd; path = usr/lib/libprotobuf.tbd; sourceTree = SDKROOT; };
+		08EF678028F5C33B00F863B2 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		08EF678128F5C33C00F863B2 /* libdl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libdl.tbd; path = usr/lib/libdl.tbd; sourceTree = SDKROOT; };
+		08EF678228F5C33C00F863B2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		08EF678328F5C33C00F863B2 /* libBKDM2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libBKDM2.tbd; path = usr/lib/libBKDM2.tbd; sourceTree = SDKROOT; };
+		08EF678428F5C33C00F863B2 /* AppleConvergedTransport.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = AppleConvergedTransport.tbd; path = usr/lib/AppleConvergedTransport.tbd; sourceTree = SDKROOT; };
+		08EF678528F5C33C00F863B2 /* libsystemstats.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsystemstats.tbd; path = usr/lib/libsystemstats.tbd; sourceTree = SDKROOT; };
+		08EF678628F5C33C00F863B2 /* libswiftRemoteMirror.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftRemoteMirror.tbd; path = usr/lib/swift/libswiftRemoteMirror.tbd; sourceTree = SDKROOT; };
+		08EF678728F5C33C00F863B2 /* PushToTalk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushToTalk.framework; path = System/Library/Frameworks/PushToTalk.framework; sourceTree = SDKROOT; };
+		08EF678828F5C33C00F863B2 /* libswiftShazamKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftShazamKit.tbd; path = usr/lib/swift/libswiftShazamKit.tbd; sourceTree = SDKROOT; };
+		08EF678928F5C33C00F863B2 /* libMobileGestaltExtensions.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMobileGestaltExtensions.tbd; path = usr/lib/libMobileGestaltExtensions.tbd; sourceTree = SDKROOT; };
+		08EF678A28F5C33C00F863B2 /* libETLSAHDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libETLSAHDynamic.tbd; path = usr/lib/libETLSAHDynamic.tbd; sourceTree = SDKROOT; };
+		08EF678B28F5C33C00F863B2 /* libswiftCloudKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCloudKit.tbd; path = usr/lib/swift/libswiftCloudKit.tbd; sourceTree = SDKROOT; };
+		08EF678C28F5C33C00F863B2 /* BackgroundAssets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BackgroundAssets.framework; path = System/Library/Frameworks/BackgroundAssets.framework; sourceTree = SDKROOT; };
+		08EF678D28F5C33C00F863B2 /* libsysmon.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsysmon.tbd; path = usr/lib/libsysmon.tbd; sourceTree = SDKROOT; };
+		08EF678E28F5C33C00F863B2 /* libTelephonyBasebandDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libTelephonyBasebandDynamic.tbd; path = usr/lib/libTelephonyBasebandDynamic.tbd; sourceTree = SDKROOT; };
+		08EF678F28F5C33C00F863B2 /* libETLDLFDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libETLDLFDynamic.tbd; path = usr/lib/libETLDLFDynamic.tbd; sourceTree = SDKROOT; };
+		08EF679028F5C33C00F863B2 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		08EF679128F5C33E00F863B2 /* IdentityLookupUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IdentityLookupUI.framework; path = System/Library/Frameworks/IdentityLookupUI.framework; sourceTree = SDKROOT; };
+		08EF679228F5C33E00F863B2 /* libacmobileshim.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libacmobileshim.tbd; path = usr/lib/libacmobileshim.tbd; sourceTree = SDKROOT; };
+		08EF679328F5C33E00F863B2 /* libquic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libquic.tbd; path = usr/lib/libquic.tbd; sourceTree = SDKROOT; };
+		08EF679428F5C33E00F863B2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		08EF679528F5C33E00F863B2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		08EF679628F5C33F00F863B2 /* ExtensionFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExtensionFoundation.framework; path = System/Library/Frameworks/ExtensionFoundation.framework; sourceTree = SDKROOT; };
+		08EF679728F5C33F00F863B2 /* libBasebandCommandDriversQMI.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libBasebandCommandDriversQMI.tbd; path = usr/lib/libBasebandCommandDriversQMI.tbd; sourceTree = SDKROOT; };
+		08EF679828F5C33F00F863B2 /* DeviceDiscoveryExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceDiscoveryExtension.framework; path = System/Library/Frameworks/DeviceDiscoveryExtension.framework; sourceTree = SDKROOT; };
+		08EF679928F5C33F00F863B2 /* libIOAccessoryManager.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libIOAccessoryManager.tbd; path = usr/lib/libIOAccessoryManager.tbd; sourceTree = SDKROOT; };
+		08EF679A28F5C33F00F863B2 /* LocalAuthenticationEmbeddedUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthenticationEmbeddedUI.framework; path = System/Library/Frameworks/LocalAuthenticationEmbeddedUI.framework; sourceTree = SDKROOT; };
+		08EF679B28F5C34000F863B2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		08EF679C28F5C34000F863B2 /* libswiftVision.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftVision.tbd; path = usr/lib/swift/libswiftVision.tbd; sourceTree = SDKROOT; };
+		08EF679D28F5C34000F863B2 /* libform.5.4.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libform.5.4.tbd; path = usr/lib/libform.5.4.tbd; sourceTree = SDKROOT; };
+		08EF679E28F5C34000F863B2 /* libswiftSystem_Foundation.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftSystem_Foundation.tbd; path = usr/lib/swift/libswiftSystem_Foundation.tbd; sourceTree = SDKROOT; };
+		08EF679F28F5C34000F863B2 /* libutil1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libutil1.0.tbd; path = usr/lib/libutil1.0.tbd; sourceTree = SDKROOT; };
+		08EF67A028F5C34000F863B2 /* libswiftCallKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCallKit.tbd; path = usr/lib/swift/libswiftCallKit.tbd; sourceTree = SDKROOT; };
+		08EF67A128F5C34000F863B2 /* libMemoryResourceException.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMemoryResourceException.tbd; path = usr/lib/libMemoryResourceException.tbd; sourceTree = SDKROOT; };
+		08EF67A228F5C34000F863B2 /* libswiftCoreGraphics.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCoreGraphics.tbd; path = usr/lib/swift/libswiftCoreGraphics.tbd; sourceTree = SDKROOT; };
+		08EF67A328F5C34000F863B2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		08EF67A428F5C34000F863B2 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		08EF67A528F5C34000F863B2 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		08EF67A628F5C34000F863B2 /* libswiftGLKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftGLKit.tbd; path = usr/lib/swift/libswiftGLKit.tbd; sourceTree = SDKROOT; };
+		08EF67A728F5C34000F863B2 /* libReverseProxyDevice.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libReverseProxyDevice.tbd; path = usr/lib/libReverseProxyDevice.tbd; sourceTree = SDKROOT; };
+		08EF67A828F5C34000F863B2 /* libAppleArchive.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAppleArchive.tbd; path = usr/lib/libAppleArchive.tbd; sourceTree = SDKROOT; };
+		08EF67A928F5C34000F863B2 /* liblangid.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = liblangid.tbd; path = usr/lib/liblangid.tbd; sourceTree = SDKROOT; };
+		08EF67AA28F5C34000F863B2 /* libMobileCheckpoint.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMobileCheckpoint.tbd; path = usr/lib/libMobileCheckpoint.tbd; sourceTree = SDKROOT; };
+		08EF67AB28F5C34000F863B2 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = System/Library/Frameworks/Charts.framework; sourceTree = SDKROOT; };
+		08EF67AC28F5C34000F863B2 /* libswiftSpatial.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftSpatial.tbd; path = usr/lib/swift/libswiftSpatial.tbd; sourceTree = SDKROOT; };
+		08EF67AD28F5C34000F863B2 /* libsp.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsp.tbd; path = usr/lib/libsp.tbd; sourceTree = SDKROOT; };
+		08EF67AE28F5C34000F863B2 /* GSS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSS.framework; path = System/Library/Frameworks/GSS.framework; sourceTree = SDKROOT; };
+		08EF67AF28F5C34000F863B2 /* libextension.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libextension.tbd; path = usr/lib/libextension.tbd; sourceTree = SDKROOT; };
+		08EF67B028F5C34000F863B2 /* libz.1.2.11.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.11.tbd; path = usr/lib/libz.1.2.11.tbd; sourceTree = SDKROOT; };
+		08EF67B128F5C34000F863B2 /* ColorSync.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ColorSync.framework; path = System/Library/Frameworks/ColorSync.framework; sourceTree = SDKROOT; };
+		08EF67B228F5C34000F863B2 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		08EF67B328F5C34000F863B2 /* AutomaticAssessmentConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutomaticAssessmentConfiguration.framework; path = System/Library/Frameworks/AutomaticAssessmentConfiguration.framework; sourceTree = SDKROOT; };
+		08EF67B428F5C34100F863B2 /* libswiftCoreAudio.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCoreAudio.tbd; path = usr/lib/swift/libswiftCoreAudio.tbd; sourceTree = SDKROOT; };
+		08EF67B528F5C34100F863B2 /* CoreLocationUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocationUI.framework; path = System/Library/Frameworks/CoreLocationUI.framework; sourceTree = SDKROOT; };
+		08EF67B628F5C34100F863B2 /* libPPMDataModel.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libPPMDataModel.tbd; path = usr/lib/libPPMDataModel.tbd; sourceTree = SDKROOT; };
+		08EF67B728F5C34100F863B2 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		08EF67B828F5C34100F863B2 /* libswiftMetalKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftMetalKit.tbd; path = usr/lib/swift/libswiftMetalKit.tbd; sourceTree = SDKROOT; };
+		08EF67B928F5C34100F863B2 /* libAWDProtobufFacetime.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAWDProtobufFacetime.tbd; path = usr/lib/libAWDProtobufFacetime.tbd; sourceTree = SDKROOT; };
+		08EF67BA28F5C34100F863B2 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		08EF67BB28F5C34100F863B2 /* libnetworkextension.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libnetworkextension.tbd; path = usr/lib/libnetworkextension.tbd; sourceTree = SDKROOT; };
+		08EF67BC28F5C34100F863B2 /* libswiftNaturalLanguage.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftNaturalLanguage.tbd; path = usr/lib/swift/libswiftNaturalLanguage.tbd; sourceTree = SDKROOT; };
+		08EF67BD28F5C34100F863B2 /* libAppleHIDSWDFlash.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAppleHIDSWDFlash.tbd; path = usr/lib/libAppleHIDSWDFlash.tbd; sourceTree = SDKROOT; };
+		08EF67BE28F5C34100F863B2 /* libswiftCoreML.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCoreML.tbd; path = usr/lib/swift/libswiftCoreML.tbd; sourceTree = SDKROOT; };
+		08EF67BF28F5C34100F863B2 /* libeasyperf.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libeasyperf.tbd; path = usr/lib/libeasyperf.tbd; sourceTree = SDKROOT; };
+		08EF67C028F5C34100F863B2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		08EF67C128F5C34100F863B2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		08EF67C228F5C34100F863B2 /* libICEClient.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libICEClient.tbd; path = usr/lib/libICEClient.tbd; sourceTree = SDKROOT; };
+		08EF67C328F5C34100F863B2 /* libenergytrace.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libenergytrace.tbd; path = usr/lib/libenergytrace.tbd; sourceTree = SDKROOT; };
+		08EF67C428F5C34100F863B2 /* libedit.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libedit.3.tbd; path = usr/lib/libedit.3.tbd; sourceTree = SDKROOT; };
+		08EF67C528F5C34200F863B2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		08EF67C628F5C34200F863B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08EF67C728F5C34200F863B2 /* DeveloperToolsSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeveloperToolsSupport.framework; path = System/Library/Frameworks/DeveloperToolsSupport.framework; sourceTree = SDKROOT; };
+		08EF67C828F5C34200F863B2 /* libswiftAccelerate.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftAccelerate.tbd; path = usr/lib/swift/libswiftAccelerate.tbd; sourceTree = SDKROOT; };
+		08EF67C928F5C34200F863B2 /* libswiftCoreImage.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCoreImage.tbd; path = usr/lib/swift/libswiftCoreImage.tbd; sourceTree = SDKROOT; };
+		08EF67CA28F5C34200F863B2 /* CreateMLComponents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CreateMLComponents.framework; path = System/Library/Frameworks/CreateMLComponents.framework; sourceTree = SDKROOT; };
+		08EF67CB28F5C34200F863B2 /* libFaultOrdering.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libFaultOrdering.tbd; path = usr/lib/libFaultOrdering.tbd; sourceTree = SDKROOT; };
+		08EF67CC28F5C34200F863B2 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		08EF67CD28F5C34200F863B2 /* OSLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSLog.framework; path = System/Library/Frameworks/OSLog.framework; sourceTree = SDKROOT; };
+		08EF67CE28F5C34200F863B2 /* libswiftMLCompute.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftMLCompute.tbd; path = usr/lib/swift/libswiftMLCompute.tbd; sourceTree = SDKROOT; };
+		08EF67CF28F5C34200F863B2 /* libboringssl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libboringssl.tbd; path = usr/lib/libboringssl.tbd; sourceTree = SDKROOT; };
+		08EF67D028F5C34200F863B2 /* FileProvider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileProvider.framework; path = System/Library/Frameworks/FileProvider.framework; sourceTree = SDKROOT; };
+		08EF67D128F5C34200F863B2 /* libmd.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libmd.tbd; path = usr/lib/libmd.tbd; sourceTree = SDKROOT; };
+		08EF67D228F5C34200F863B2 /* libTiSerialFlasher.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libTiSerialFlasher.tbd; path = usr/lib/libTiSerialFlasher.tbd; sourceTree = SDKROOT; };
+		08EF67D328F5C34200F863B2 /* libAudioDSPCore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAudioDSPCore.tbd; path = usr/lib/libAudioDSPCore.tbd; sourceTree = SDKROOT; };
+		08EF67D428F5C34200F863B2 /* libsysdiagnose.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsysdiagnose.tbd; path = usr/lib/libsysdiagnose.tbd; sourceTree = SDKROOT; };
+		08EF67D528F5C34200F863B2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		08EF67D628F5C34200F863B2 /* libswiftFileProvider.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftFileProvider.tbd; path = usr/lib/swift/libswiftFileProvider.tbd; sourceTree = SDKROOT; };
+		08EF67D728F5C34200F863B2 /* libswiftContacts.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftContacts.tbd; path = usr/lib/swift/libswiftContacts.tbd; sourceTree = SDKROOT; };
+		08EF67D828F5C34300F863B2 /* libxslt.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxslt.1.tbd; path = usr/lib/libxslt.1.tbd; sourceTree = SDKROOT; };
+		08EF67D928F5C34300F863B2 /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
+		08EF67DA28F5C34300F863B2 /* libswiftAppleArchive.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftAppleArchive.tbd; path = usr/lib/swift/libswiftAppleArchive.tbd; sourceTree = SDKROOT; };
+		08EF67DB28F5C34300F863B2 /* libAWDProtobufLocation.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAWDProtobufLocation.tbd; path = usr/lib/libAWDProtobufLocation.tbd; sourceTree = SDKROOT; };
+		08EF67DC28F5C34300F863B2 /* libAppletTranslationLibrary.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAppletTranslationLibrary.tbd; path = usr/lib/libAppletTranslationLibrary.tbd; sourceTree = SDKROOT; };
+		08EF67DD28F5C34300F863B2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		08EF67DE28F5C34300F863B2 /* RoomPlan.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RoomPlan.framework; path = System/Library/Frameworks/RoomPlan.framework; sourceTree = SDKROOT; };
+		08EF67DF28F5C34300F863B2 /* VisionKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisionKit.framework; path = System/Library/Frameworks/VisionKit.framework; sourceTree = SDKROOT; };
+		08EF67E028F5C34300F863B2 /* libMatch.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMatch.tbd; path = usr/lib/libMatch.tbd; sourceTree = SDKROOT; };
+		08EF67E128F5C34300F863B2 /* libAudioStatistics.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAudioStatistics.tbd; path = usr/lib/libAudioStatistics.tbd; sourceTree = SDKROOT; };
+		08EF67E228F5C34300F863B2 /* libswiftSceneKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftSceneKit.tbd; path = usr/lib/swift/libswiftSceneKit.tbd; sourceTree = SDKROOT; };
+		08EF67E328F5C34300F863B2 /* LinkPresentation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinkPresentation.framework; path = System/Library/Frameworks/LinkPresentation.framework; sourceTree = SDKROOT; };
+		08EF67E428F5C34300F863B2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		08EF67E528F5C34300F863B2 /* libBasebandCommandDriversARI.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libBasebandCommandDriversARI.tbd; path = usr/lib/libBasebandCommandDriversARI.tbd; sourceTree = SDKROOT; };
+		08EF67E628F5C34300F863B2 /* libspindump.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libspindump.tbd; path = usr/lib/libspindump.tbd; sourceTree = SDKROOT; };
+		08EF67E728F5C34300F863B2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		08EF67E828F5C34400F863B2 /* libswiftOSLog.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftOSLog.tbd; path = usr/lib/swift/libswiftOSLog.tbd; sourceTree = SDKROOT; };
+		08EF67E928F5C34400F863B2 /* AutomatedDeviceEnrollment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutomatedDeviceEnrollment.framework; path = System/Library/Frameworks/AutomatedDeviceEnrollment.framework; sourceTree = SDKROOT; };
+		08EF67EA28F5C34400F863B2 /* libobjc.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libobjc.A.tbd; path = usr/lib/libobjc.A.tbd; sourceTree = SDKROOT; };
+		08EF67EB28F5C34400F863B2 /* libswiftAVFoundation.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftAVFoundation.tbd; path = usr/lib/swift/libswiftAVFoundation.tbd; sourceTree = SDKROOT; };
+		08EF67EC28F5C34400F863B2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		08EF67ED28F5C34400F863B2 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		08EF67EE28F5C34400F863B2 /* libusrtcp.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libusrtcp.tbd; path = usr/lib/libusrtcp.tbd; sourceTree = SDKROOT; };
+		08EF67EF28F5C34400F863B2 /* libAppleSSEExt.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAppleSSEExt.tbd; path = usr/lib/libAppleSSEExt.tbd; sourceTree = SDKROOT; };
+		08EF67F028F5C34400F863B2 /* libswiftMapKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftMapKit.tbd; path = usr/lib/swift/libswiftMapKit.tbd; sourceTree = SDKROOT; };
+		08EF67F128F5C34400F863B2 /* libAWDProtobufFacetimeiMessage.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAWDProtobufFacetimeiMessage.tbd; path = usr/lib/libAWDProtobufFacetimeiMessage.tbd; sourceTree = SDKROOT; };
+		08EF67F228F5C34400F863B2 /* libRemoteTelephonyTransport.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libRemoteTelephonyTransport.tbd; path = usr/lib/libRemoteTelephonyTransport.tbd; sourceTree = SDKROOT; };
+		08EF67F328F5C34400F863B2 /* PencilKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PencilKit.framework; path = System/Library/Frameworks/PencilKit.framework; sourceTree = SDKROOT; };
+		08EF67F428F5C34400F863B2 /* libPN548_API.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libPN548_API.tbd; path = usr/lib/libPN548_API.tbd; sourceTree = SDKROOT; };
+		08EF67F528F5C34400F863B2 /* libFosl_dynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libFosl_dynamic.tbd; path = usr/lib/libFosl_dynamic.tbd; sourceTree = SDKROOT; };
+		08EF67F628F5C34400F863B2 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		08EF67F728F5C34400F863B2 /* libBASupport.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libBASupport.tbd; path = usr/lib/libBASupport.tbd; sourceTree = SDKROOT; };
+		08EF67F828F5C34400F863B2 /* libswiftNearbyInteraction.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftNearbyInteraction.tbd; path = usr/lib/swift/libswiftNearbyInteraction.tbd; sourceTree = SDKROOT; };
+		08EF67F928F5C34400F863B2 /* libperfcheck.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libperfcheck.tbd; path = usr/lib/libperfcheck.tbd; sourceTree = SDKROOT; };
+		08EF67FA28F5C34400F863B2 /* libBBUpdaterDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libBBUpdaterDynamic.tbd; path = usr/lib/libBBUpdaterDynamic.tbd; sourceTree = SDKROOT; };
+		08EF67FB28F5C34500F863B2 /* libAWDSupportFramework.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAWDSupportFramework.tbd; path = usr/lib/libAWDSupportFramework.tbd; sourceTree = SDKROOT; };
+		08EF67FC28F5C34500F863B2 /* libswiftQuartzCore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftQuartzCore.tbd; path = usr/lib/swift/libswiftQuartzCore.tbd; sourceTree = SDKROOT; };
+		08EF67FD28F5C34500F863B2 /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
+		08EF67FE28F5C34500F863B2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		08EF67FF28F5C34500F863B2 /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = System/Library/Frameworks/Combine.framework; sourceTree = SDKROOT; };
+		08EF680028F5C34600F863B2 /* libnfshared.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libnfshared.tbd; path = usr/lib/libnfshared.tbd; sourceTree = SDKROOT; };
+		08EF680128F5C34600F863B2 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		08EF680228F5C34600F863B2 /* libamsupport.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libamsupport.tbd; path = usr/lib/libamsupport.tbd; sourceTree = SDKROOT; };
+		08EF680328F5C34600F863B2 /* libcryptex_interface.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcryptex_interface.tbd; path = usr/lib/libcryptex_interface.tbd; sourceTree = SDKROOT; };
+		08EF680428F5C34700F863B2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		08EF680528F5C34700F863B2 /* libswiftSoundAnalysis_Private.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftSoundAnalysis_Private.tbd; path = usr/lib/swift/libswiftSoundAnalysis_Private.tbd; sourceTree = SDKROOT; };
+		08EF680628F5C34700F863B2 /* IdentityLookup.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IdentityLookup.framework; path = System/Library/Frameworks/IdentityLookup.framework; sourceTree = SDKROOT; };
+		08EF680728F5C34700F863B2 /* libTelephonyUSBDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libTelephonyUSBDynamic.tbd; path = usr/lib/libTelephonyUSBDynamic.tbd; sourceTree = SDKROOT; };
+		08EF680828F5C34700F863B2 /* libFDRDecode.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libFDRDecode.tbd; path = usr/lib/libFDRDecode.tbd; sourceTree = SDKROOT; };
+		08EF680928F5C34700F863B2 /* libprequelite.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libprequelite.tbd; path = usr/lib/libprequelite.tbd; sourceTree = SDKROOT; };
+		08EF680A28F5C34700F863B2 /* DataDetection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DataDetection.framework; path = System/Library/Frameworks/DataDetection.framework; sourceTree = SDKROOT; };
+		08EF680B28F5C34700F863B2 /* libcryptex_core.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcryptex_core.tbd; path = usr/lib/libcryptex_core.tbd; sourceTree = SDKROOT; };
+		08EF680C28F5C34700F863B2 /* libMTLHud.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMTLHud.tbd; path = usr/lib/libMTLHud.tbd; sourceTree = SDKROOT; };
+		08EF680D28F5C34700F863B2 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+		08EF680E28F5C34700F863B2 /* liblzma.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = liblzma.5.tbd; path = usr/lib/liblzma.5.tbd; sourceTree = SDKROOT; };
+		08EF680F28F5C34700F863B2 /* libAWDSupport.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAWDSupport.tbd; path = usr/lib/libAWDSupport.tbd; sourceTree = SDKROOT; };
+		08EF681028F5C34700F863B2 /* liblockdown.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = liblockdown.tbd; path = usr/lib/liblockdown.tbd; sourceTree = SDKROOT; };
+		08EF681128F5C34700F863B2 /* libswiftCryptoTokenKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCryptoTokenKit.tbd; path = usr/lib/swift/libswiftCryptoTokenKit.tbd; sourceTree = SDKROOT; };
+		08EF681228F5C34700F863B2 /* libRPAC.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libRPAC.tbd; path = usr/lib/libRPAC.tbd; sourceTree = SDKROOT; };
+		08EF681328F5C34700F863B2 /* libswiftObjectiveC.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftObjectiveC.tbd; path = usr/lib/swift/libswiftObjectiveC.tbd; sourceTree = SDKROOT; };
+		08EF681428F5C34700F863B2 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		08EF681528F5C34700F863B2 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		08EF681628F5C34700F863B2 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		08EF681728F5C34700F863B2 /* libipsec.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libipsec.tbd; path = usr/lib/libipsec.tbd; sourceTree = SDKROOT; };
+		08EF681828F5C34800F863B2 /* libedit.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libedit.2.tbd; path = usr/lib/libedit.2.tbd; sourceTree = SDKROOT; };
+		08EF681928F5C34800F863B2 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		08EF681A28F5C34800F863B2 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		08EF681B28F5C34800F863B2 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		08EF681C28F5C34800F863B2 /* libBasebandManager.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libBasebandManager.tbd; path = usr/lib/libBasebandManager.tbd; sourceTree = SDKROOT; };
+		08EF681D28F5C34800F863B2 /* libswiftWebKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftWebKit.tbd; path = usr/lib/swift/libswiftWebKit.tbd; sourceTree = SDKROOT; };
+		08EF681E28F5C34800F863B2 /* libinfo.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libinfo.tbd; path = usr/lib/libinfo.tbd; sourceTree = SDKROOT; };
+		08EF681F28F5C34800F863B2 /* libBasebandManagerICE.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libBasebandManagerICE.tbd; path = usr/lib/libBasebandManagerICE.tbd; sourceTree = SDKROOT; };
+		08EF682028F5C34800F863B2 /* libTLE.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libTLE.tbd; path = usr/lib/libTLE.tbd; sourceTree = SDKROOT; };
+		08EF682128F5C34800F863B2 /* VideoSubscriberAccount.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoSubscriberAccount.framework; path = System/Library/Frameworks/VideoSubscriberAccount.framework; sourceTree = SDKROOT; };
+		08EF682228F5C34800F863B2 /* libobjc-trampolines.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libobjc-trampolines.tbd"; path = "usr/lib/libobjc-trampolines.tbd"; sourceTree = SDKROOT; };
+		08EF682328F5C34800F863B2 /* libCRFSuite0.12.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libCRFSuite0.12.tbd; path = usr/lib/libCRFSuite0.12.tbd; sourceTree = SDKROOT; };
+		08EF682428F5C34900F863B2 /* RealityFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityFoundation.framework; path = System/Library/Frameworks/RealityFoundation.framework; sourceTree = SDKROOT; };
+		08EF682528F5C34900F863B2 /* libThaiTokenizer.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libThaiTokenizer.tbd; path = usr/lib/libThaiTokenizer.tbd; sourceTree = SDKROOT; };
+		08EF682628F5C34900F863B2 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		08EF682728F5C34900F863B2 /* libMatch.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMatch.1.tbd; path = usr/lib/libMatch.1.tbd; sourceTree = SDKROOT; };
+		08EF682828F5C34900F863B2 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		08EF682928F5C34900F863B2 /* libSystem.B_asan.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.B_asan.tbd; path = usr/lib/libSystem.B_asan.tbd; sourceTree = SDKROOT; };
+		08EF682A28F5C34900F863B2 /* SafetyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafetyKit.framework; path = System/Library/Frameworks/SafetyKit.framework; sourceTree = SDKROOT; };
+		08EF682B28F5C34900F863B2 /* libsandbox.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsandbox.tbd; path = usr/lib/libsandbox.tbd; sourceTree = SDKROOT; };
+		08EF682C28F5C34900F863B2 /* libtidy.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libtidy.A.tbd; path = usr/lib/libtidy.A.tbd; sourceTree = SDKROOT; };
+		08EF682D28F5C34900F863B2 /* libswiftExtensionFoundation.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftExtensionFoundation.tbd; path = usr/lib/swift/libswiftExtensionFoundation.tbd; sourceTree = SDKROOT; };
+		08EF682E28F5C34900F863B2 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		08EF682F28F5C34900F863B2 /* libnfrestore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libnfrestore.tbd; path = usr/lib/libnfrestore.tbd; sourceTree = SDKROOT; };
+		08EF683028F5C34900F863B2 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		08EF683128F5C34A00F863B2 /* libheimdal-asn1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libheimdal-asn1.tbd"; path = "usr/lib/libheimdal-asn1.tbd"; sourceTree = SDKROOT; };
+		08EF683228F5C34A00F863B2 /* libcharset.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcharset.tbd; path = usr/lib/libcharset.tbd; sourceTree = SDKROOT; };
+		08EF683328F5C34A00F863B2 /* libswiftUIKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftUIKit.tbd; path = usr/lib/swift/libswiftUIKit.tbd; sourceTree = SDKROOT; };
+		08EF683428F5C34A00F863B2 /* ProximityReader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProximityReader.framework; path = System/Library/Frameworks/ProximityReader.framework; sourceTree = SDKROOT; };
+		08EF683528F5C34A00F863B2 /* libCoreEntitlements.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libCoreEntitlements.tbd; path = usr/lib/libCoreEntitlements.tbd; sourceTree = SDKROOT; };
+		08EF683628F5C34A00F863B2 /* libtermcap.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libtermcap.tbd; path = usr/lib/libtermcap.tbd; sourceTree = SDKROOT; };
+		08EF683728F5C34A00F863B2 /* MusicKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MusicKit.framework; path = System/Library/Frameworks/MusicKit.framework; sourceTree = SDKROOT; };
+		08EF683828F5C34A00F863B2 /* libmecab.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libmecab.tbd; path = usr/lib/libmecab.tbd; sourceTree = SDKROOT; };
+		08EF683928F5C34A00F863B2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		08EF683A28F5C34A00F863B2 /* CarPlay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CarPlay.framework; path = System/Library/Frameworks/CarPlay.framework; sourceTree = SDKROOT; };
+		08EF683B28F5C34B00F863B2 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		08EF683C28F5C34B00F863B2 /* libLeaksAtExit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libLeaksAtExit.tbd; path = usr/lib/libLeaksAtExit.tbd; sourceTree = SDKROOT; };
+		08EF683D28F5C34B00F863B2 /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
+		08EF683E28F5C34B00F863B2 /* libswiftUniformTypeIdentifiers.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftUniformTypeIdentifiers.tbd; path = usr/lib/swift/libswiftUniformTypeIdentifiers.tbd; sourceTree = SDKROOT; };
+		08EF683F28F5C34B00F863B2 /* libDHCPServer.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libDHCPServer.tbd; path = usr/lib/libDHCPServer.tbd; sourceTree = SDKROOT; };
+		08EF684028F5C34B00F863B2 /* libprotobuf-lite.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libprotobuf-lite.tbd"; path = "usr/lib/libprotobuf-lite.tbd"; sourceTree = SDKROOT; };
+		08EF684128F5C34B00F863B2 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		08EF684228F5C34B00F863B2 /* libauthinstall.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libauthinstall.tbd; path = usr/lib/libauthinstall.tbd; sourceTree = SDKROOT; };
+		08EF684328F5C34B00F863B2 /* libMainThreadChecker.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMainThreadChecker.tbd; path = usr/lib/libMainThreadChecker.tbd; sourceTree = SDKROOT; };
+		08EF684428F5C34B00F863B2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		08EF684528F5C34B00F863B2 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		08EF684628F5C34B00F863B2 /* libswiftCore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCore.tbd; path = usr/lib/swift/libswiftCore.tbd; sourceTree = SDKROOT; };
+		08EF684728F5C34B00F863B2 /* ThreadNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ThreadNetwork.framework; path = System/Library/Frameworks/ThreadNetwork.framework; sourceTree = SDKROOT; };
+		08EF684828F5C34C00F863B2 /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = System/Library/Frameworks/CryptoKit.framework; sourceTree = SDKROOT; };
+		08EF684928F5C34C00F863B2 /* AppClip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppClip.framework; path = System/Library/Frameworks/AppClip.framework; sourceTree = SDKROOT; };
+		08EF684A28F5C34C00F863B2 /* libMobileGestalt.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMobileGestalt.tbd; path = usr/lib/libMobileGestalt.tbd; sourceTree = SDKROOT; };
+		08EF684B28F5C34C00F863B2 /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = SDKROOT; };
+		08EF684C28F5C34C00F863B2 /* libswiftCoreNFC.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCoreNFC.tbd; path = usr/lib/swift/libswiftCoreNFC.tbd; sourceTree = SDKROOT; };
+		08EF684D28F5C34C00F863B2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		08EF684E28F5C34C00F863B2 /* libFDR.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libFDR.tbd; path = usr/lib/libFDR.tbd; sourceTree = SDKROOT; };
+		08EF684F28F5C34C00F863B2 /* libMTLToolsDiagnostics.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMTLToolsDiagnostics.tbd; path = usr/lib/libMTLToolsDiagnostics.tbd; sourceTree = SDKROOT; };
+		08EF685028F5C34C00F863B2 /* WeatherKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WeatherKit.framework; path = System/Library/Frameworks/WeatherKit.framework; sourceTree = SDKROOT; };
+		08EF685128F5C34C00F863B2 /* libncurses.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libncurses.5.tbd; path = usr/lib/libncurses.5.tbd; sourceTree = SDKROOT; };
+		08EF685228F5C34C00F863B2 /* libm.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libm.tbd; path = usr/lib/libm.tbd; sourceTree = SDKROOT; };
+		08EF685328F5C34C00F863B2 /* Python3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python3.framework; path = Library/Frameworks/Python3.framework; sourceTree = DEVELOPER_DIR; };
+		08EF685428F5C34C00F863B2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		08EF685528F5C34C00F863B2 /* Matter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Matter.framework; path = System/Library/Frameworks/Matter.framework; sourceTree = SDKROOT; };
+		08EF685628F5C34C00F863B2 /* libswiftSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftSystem.tbd; path = usr/lib/swift/libswiftSystem.tbd; sourceTree = SDKROOT; };
+		08EF685728F5C34C00F863B2 /* libcoretls.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcoretls.tbd; path = usr/lib/libcoretls.tbd; sourceTree = SDKROOT; };
+		08EF685828F5C34D00F863B2 /* StoreKitTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKitTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/StoreKitTest.framework; sourceTree = DEVELOPER_DIR; };
+		08EF685928F5C34D00F863B2 /* libswiftSwiftOnoneSupport.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftSwiftOnoneSupport.tbd; path = usr/lib/swift/libswiftSwiftOnoneSupport.tbd; sourceTree = SDKROOT; };
+		08EF685A28F5C34D00F863B2 /* ExtensionKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExtensionKit.framework; path = System/Library/Frameworks/ExtensionKit.framework; sourceTree = SDKROOT; };
+		08EF685B28F5C34D00F863B2 /* libcmph.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcmph.tbd; path = usr/lib/libcmph.tbd; sourceTree = SDKROOT; };
+		08EF685C28F5C34D00F863B2 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		08EF685D28F5C34D00F863B2 /* libAppPatch.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAppPatch.tbd; path = usr/lib/libAppPatch.tbd; sourceTree = SDKROOT; };
+		08EF685E28F5C34D00F863B2 /* libmenu.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libmenu.tbd; path = usr/lib/libmenu.tbd; sourceTree = SDKROOT; };
+		08EF685F28F5C34D00F863B2 /* libQMIParserDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libQMIParserDynamic.tbd; path = usr/lib/libQMIParserDynamic.tbd; sourceTree = SDKROOT; };
+		08EF686028F5C34D00F863B2 /* libswiftSpeech.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftSpeech.tbd; path = usr/lib/swift/libswiftSpeech.tbd; sourceTree = SDKROOT; };
+		08EF686128F5C34D00F863B2 /* libswiftIdentityLookup.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftIdentityLookup.tbd; path = usr/lib/swift/libswiftIdentityLookup.tbd; sourceTree = SDKROOT; };
+		08EF686228F5C34D00F863B2 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		08EF686328F5C34D00F863B2 /* libCoreKE.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libCoreKE.tbd; path = usr/lib/libCoreKE.tbd; sourceTree = SDKROOT; };
+		08EF686428F5C34E00F863B2 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		08EF686528F5C34E00F863B2 /* libswiftCoreLocation.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCoreLocation.tbd; path = usr/lib/swift/libswiftCoreLocation.tbd; sourceTree = SDKROOT; };
+		08EF686628F5C34E00F863B2 /* libAudioToolboxUtility.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAudioToolboxUtility.tbd; path = usr/lib/libAudioToolboxUtility.tbd; sourceTree = SDKROOT; };
+		08EF686728F5C34E00F863B2 /* libswiftARKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftARKit.tbd; path = usr/lib/swift/libswiftARKit.tbd; sourceTree = SDKROOT; };
+		08EF686828F5C34E00F863B2 /* libobjc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libobjc.tbd; path = usr/lib/libobjc.tbd; sourceTree = SDKROOT; };
+		08EF686928F5C34E00F863B2 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		08EF686A28F5C34E00F863B2 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
+		08EF686B28F5C34E00F863B2 /* libfire2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libfire2.tbd; path = usr/lib/libfire2.tbd; sourceTree = SDKROOT; };
+		08EF686C28F5C34E00F863B2 /* libswiftCarPlay.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCarPlay.tbd; path = usr/lib/swift/libswiftCarPlay.tbd; sourceTree = SDKROOT; };
+		08EF686D28F5C34E00F863B2 /* libswiftos.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftos.tbd; path = usr/lib/swift/libswiftos.tbd; sourceTree = SDKROOT; };
+		08EF686E28F5C34F00F863B2 /* libBacktraceRecording.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libBacktraceRecording.tbd; path = usr/lib/libBacktraceRecording.tbd; sourceTree = SDKROOT; };
+		08EF686F28F5C34F00F863B2 /* libffi-trampolines.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libffi-trampolines.tbd"; path = "Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.0.sdk/usr/lib/libffi-trampolines.tbd"; sourceTree = DEVELOPER_DIR; };
+		08EF687028F5C34F00F863B2 /* libllvm-flatbuffers.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libllvm-flatbuffers.tbd"; path = "usr/lib/libllvm-flatbuffers.tbd"; sourceTree = SDKROOT; };
+		08EF687128F5C34F00F863B2 /* libThreadExternalCommissioner.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libThreadExternalCommissioner.tbd; path = usr/lib/libThreadExternalCommissioner.tbd; sourceTree = SDKROOT; };
+		08EF687228F5C34F00F863B2 /* libcupolicy.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcupolicy.tbd; path = usr/lib/libcupolicy.tbd; sourceTree = SDKROOT; };
+		08EF687328F5C34F00F863B2 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
+		08EF687428F5C34F00F863B2 /* libCRFSuite.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libCRFSuite.tbd; path = usr/lib/libCRFSuite.tbd; sourceTree = SDKROOT; };
+		08EF687528F5C34F00F863B2 /* NewsstandKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NewsstandKit.framework; path = System/Library/Frameworks/NewsstandKit.framework; sourceTree = SDKROOT; };
+		08EF687628F5C34F00F863B2 /* AVRouting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVRouting.framework; path = System/Library/Frameworks/AVRouting.framework; sourceTree = SDKROOT; };
+		08EF687728F5C34F00F863B2 /* libfire3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libfire3.tbd; path = usr/lib/libfire3.tbd; sourceTree = SDKROOT; };
+		08EF687828F5C34F00F863B2 /* libMTLCapture.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMTLCapture.tbd; path = usr/lib/libMTLCapture.tbd; sourceTree = SDKROOT; };
+		08EF687928F5C35000F863B2 /* ClockKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ClockKit.framework; path = System/Library/Frameworks/ClockKit.framework; sourceTree = SDKROOT; };
+		08EF687A28F5C35000F863B2 /* MLCompute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MLCompute.framework; path = System/Library/Frameworks/MLCompute.framework; sourceTree = SDKROOT; };
+		08EF687B28F5C35000F863B2 /* libafc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libafc.tbd; path = usr/lib/libafc.tbd; sourceTree = SDKROOT; };
+		08EF687C28F5C35000F863B2 /* libpoll.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpoll.tbd; path = usr/lib/libpoll.tbd; sourceTree = SDKROOT; };
+		08EF687D28F5C35000F863B2 /* libreadline.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libreadline.tbd; path = usr/lib/libreadline.tbd; sourceTree = SDKROOT; };
+		08EF687E28F5C35000F863B2 /* libWirelessAudioIPC.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libWirelessAudioIPC.tbd; path = usr/lib/libWirelessAudioIPC.tbd; sourceTree = SDKROOT; };
+		08EF687F28F5C35200F863B2 /* liblzma.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = liblzma.tbd; path = usr/lib/liblzma.tbd; sourceTree = SDKROOT; };
+		08EF688028F5C35200F863B2 /* GameplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameplayKit.framework; path = System/Library/Frameworks/GameplayKit.framework; sourceTree = SDKROOT; };
+		08EF688128F5C35200F863B2 /* libswiftNetwork.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftNetwork.tbd; path = usr/lib/swift/libswiftNetwork.tbd; sourceTree = SDKROOT; };
+		08EF688228F5C35200F863B2 /* libswiftDarwin.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftDarwin.tbd; path = usr/lib/swift/libswiftDarwin.tbd; sourceTree = SDKROOT; };
+		08EF688328F5C35300F863B2 /* libLLVM.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libLLVM.tbd; path = usr/lib/libLLVM.tbd; sourceTree = SDKROOT; };
+		08EF688428F5C35300F863B2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		08EF688528F5C35300F863B2 /* CryptoTokenKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoTokenKit.framework; path = System/Library/Frameworks/CryptoTokenKit.framework; sourceTree = SDKROOT; };
+		08EF688628F5C35300F863B2 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		08EF688728F5C35300F863B2 /* libParallelCompression.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libParallelCompression.tbd; path = usr/lib/libParallelCompression.tbd; sourceTree = SDKROOT; };
+		08EF688828F5C35300F863B2 /* CoreTransferable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTransferable.framework; path = System/Library/Frameworks/CoreTransferable.framework; sourceTree = SDKROOT; };
+		08EF688928F5C35300F863B2 /* QuickLookThumbnailing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLookThumbnailing.framework; path = System/Library/Frameworks/QuickLookThumbnailing.framework; sourceTree = SDKROOT; };
+		08EF688A28F5C35300F863B2 /* libTelephonyDebugDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libTelephonyDebugDynamic.tbd; path = usr/lib/libTelephonyDebugDynamic.tbd; sourceTree = SDKROOT; };
+		08EF688B28F5C35300F863B2 /* libWAPI.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libWAPI.tbd; path = usr/lib/libWAPI.tbd; sourceTree = SDKROOT; };
+		08EF688C28F5C35300F863B2 /* libedit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libedit.tbd; path = usr/lib/libedit.tbd; sourceTree = SDKROOT; };
+		08EF688D28F5C35300F863B2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		08EF688E28F5C35300F863B2 /* CarrierBundleUtilities.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = CarrierBundleUtilities.tbd; path = usr/lib/CarrierBundleUtilities.tbd; sourceTree = SDKROOT; };
+		08EF688F28F5C35400F863B2 /* libate.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libate.tbd; path = usr/lib/libate.tbd; sourceTree = SDKROOT; };
+		08EF689028F5C35400F863B2 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		08EF689128F5C35400F863B2 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+		08EF689228F5C35400F863B2 /* libmis.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libmis.tbd; path = usr/lib/libmis.tbd; sourceTree = SDKROOT; };
+		08EF689328F5C35400F863B2 /* libARIServer.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libARIServer.tbd; path = usr/lib/libARIServer.tbd; sourceTree = SDKROOT; };
+		08EF689428F5C35400F863B2 /* libipsec.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libipsec.A.tbd; path = usr/lib/libipsec.A.tbd; sourceTree = SDKROOT; };
+		08EF689528F5C35400F863B2 /* ACIPCBTLib.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = ACIPCBTLib.tbd; path = usr/lib/ACIPCBTLib.tbd; sourceTree = SDKROOT; };
+		08EF689628F5C35400F863B2 /* libswiftMediaPlayer.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftMediaPlayer.tbd; path = usr/lib/swift/libswiftMediaPlayer.tbd; sourceTree = SDKROOT; };
+		08EF689728F5C35400F863B2 /* libIOReport.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libIOReport.tbd; path = usr/lib/libIOReport.tbd; sourceTree = SDKROOT; };
+		08EF689828F5C35400F863B2 /* libbsm.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbsm.0.tbd; path = usr/lib/libbsm.0.tbd; sourceTree = SDKROOT; };
+		08EF689928F5C35400F863B2 /* libChineseTokenizer.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libChineseTokenizer.tbd; path = usr/lib/libChineseTokenizer.tbd; sourceTree = SDKROOT; };
+		08EF689A28F5C35400F863B2 /* BackgroundTasks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BackgroundTasks.framework; path = System/Library/Frameworks/BackgroundTasks.framework; sourceTree = SDKROOT; };
+		08EF689B28F5C35400F863B2 /* libcharset.1.0.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcharset.1.0.0.tbd; path = usr/lib/libcharset.1.0.0.tbd; sourceTree = SDKROOT; };
+		08EF689C28F5C35400F863B2 /* libcurses.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurses.tbd; path = usr/lib/libcurses.tbd; sourceTree = SDKROOT; };
+		08EF689D28F5C35500F863B2 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		08EF689E28F5C35500F863B2 /* MetalPerformanceShadersGraph.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShadersGraph.framework; path = System/Library/Frameworks/MetalPerformanceShadersGraph.framework; sourceTree = SDKROOT; };
+		08EF689F28F5C35500F863B2 /* libswiftDistributed.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftDistributed.tbd; path = usr/lib/swift/libswiftDistributed.tbd; sourceTree = SDKROOT; };
+		08EF68A028F5C35500F863B2 /* libAccessibility.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAccessibility.tbd; path = usr/lib/libAccessibility.tbd; sourceTree = SDKROOT; };
+		08EF68A128F5C35500F863B2 /* libAXSafeCategoryBundle.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libAXSafeCategoryBundle.tbd; path = usr/lib/libAXSafeCategoryBundle.tbd; sourceTree = SDKROOT; };
+		08EF68A228F5C35500F863B2 /* libswiftRegexBuilder.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftRegexBuilder.tbd; path = usr/lib/swift/libswiftRegexBuilder.tbd; sourceTree = SDKROOT; };
+		08EF68A328F5C35500F863B2 /* libPPM.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libPPM.tbd; path = usr/lib/libPPM.tbd; sourceTree = SDKROOT; };
+		08EF68A428F5C35500F863B2 /* libRoseBooter.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libRoseBooter.tbd; path = usr/lib/libRoseBooter.tbd; sourceTree = SDKROOT; };
+		08EF68A528F5C35500F863B2 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		08EF68A628F5C35500F863B2 /* CarKey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CarKey.framework; path = System/Library/Frameworks/CarKey.framework; sourceTree = SDKROOT; };
+		08EF68A728F5C35500F863B2 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		08EF68A828F5C35600F863B2 /* NearbyInteraction.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NearbyInteraction.framework; path = System/Library/Frameworks/NearbyInteraction.framework; sourceTree = SDKROOT; };
+		08EF68A928F5C35600F863B2 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		08EF68AA28F5C35600F863B2 /* Accessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accessibility.framework; path = System/Library/Frameworks/Accessibility.framework; sourceTree = SDKROOT; };
+		08EF68AB28F5C35600F863B2 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		08EF68AC28F5C35600F863B2 /* libktrace.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libktrace.tbd; path = usr/lib/libktrace.tbd; sourceTree = SDKROOT; };
+		08EF68AD28F5C35600F863B2 /* libswiftExtensionKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftExtensionKit.tbd; path = usr/lib/swift/libswiftExtensionKit.tbd; sourceTree = SDKROOT; };
+		08EF68AE28F5C35600F863B2 /* libswiftPassKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftPassKit.tbd; path = usr/lib/swift/libswiftPassKit.tbd; sourceTree = SDKROOT; };
+		08EF68AF28F5C35600F863B2 /* libATCommandStudioDynamic.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libATCommandStudioDynamic.tbd; path = usr/lib/libATCommandStudioDynamic.tbd; sourceTree = SDKROOT; };
+		08EF68B028F5C35600F863B2 /* librpcsvc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = librpcsvc.tbd; path = usr/lib/librpcsvc.tbd; sourceTree = SDKROOT; };
+		08EF68B128F5C35600F863B2 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		08EF68B228F5C35600F863B2 /* CoreHaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreHaptics.framework; path = System/Library/Frameworks/CoreHaptics.framework; sourceTree = SDKROOT; };
+		08EF68B328F5C35600F863B2 /* AVFAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFAudio.framework; path = System/Library/Frameworks/AVFAudio.framework; sourceTree = SDKROOT; };
+		08EF68B428F5C35700F863B2 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08EF663928F5BE7000F863B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EF668328F5C32F00F863B2 /* FirebaseDatabase in Frameworks */,
+				08EF669128F5C32F00F863B2 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				08EF668928F5C32F00F863B2 /* FirebaseFirestore in Frameworks */,
+				08EF667528F5C32F00F863B2 /* FirebaseAnalyticsSwift in Frameworks */,
+				08EF667128F5C32F00F863B2 /* FirebaseAnalytics in Frameworks */,
+				08EF667328F5C32F00F863B2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				08EF668D28F5C32F00F863B2 /* FirebaseFirestoreSwift in Frameworks */,
+				08EF669B28F5C32F00F863B2 /* FirebaseMLModelDownloader in Frameworks */,
+				08EF667928F5C32F00F863B2 /* FirebaseAppCheck in Frameworks */,
+				08EF667728F5C32F00F863B2 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				08EF669928F5C32F00F863B2 /* FirebaseMessaging in Frameworks */,
+				08EF667D28F5C32F00F863B2 /* FirebaseAuth in Frameworks */,
+				08EF66A128F5C33000F863B2 /* FirebaseRemoteConfigSwift in Frameworks */,
+				08EF668128F5C32F00F863B2 /* FirebaseCrashlytics in Frameworks */,
+				08EF669328F5C32F00F863B2 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				08EF668528F5C32F00F863B2 /* FirebaseDatabaseSwift in Frameworks */,
+				08EF66A528F5C33000F863B2 /* FirebaseStorageCombine-Community in Frameworks */,
+				08EF669F28F5C33000F863B2 /* FirebaseRemoteConfig in Frameworks */,
+				08EF668F28F5C32F00F863B2 /* FirebaseFunctions in Frameworks */,
+				08EF667B28F5C32F00F863B2 /* FirebaseAppDistribution-Beta in Frameworks */,
+				08EF669D28F5C32F00F863B2 /* FirebasePerformance in Frameworks */,
+				08EF667F28F5C32F00F863B2 /* FirebaseAuthCombine-Community in Frameworks */,
+				08EF66A328F5C33000F863B2 /* FirebaseStorage in Frameworks */,
+				08EF669528F5C32F00F863B2 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				08EF668728F5C32F00F863B2 /* FirebaseDynamicLinks in Frameworks */,
+				08EF668B28F5C32F00F863B2 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				08EF669728F5C32F00F863B2 /* FirebaseInstallations in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EF664928F5BE7100F863B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EF665328F5BE7100F863B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08EF663328F5BE7000F863B2 = {
+			isa = PBXGroup;
+			children = (
+				08EF663E28F5BE7000F863B2 /* Tetsugakujiten */,
+				08EF664F28F5BE7100F863B2 /* TetsugakujitenTests */,
+				08EF665928F5BE7100F863B2 /* TetsugakujitenUITests */,
+				08EF663D28F5BE7000F863B2 /* Products */,
+				08EF666F28F5C32F00F863B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08EF663D28F5BE7000F863B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08EF663C28F5BE7000F863B2 /* Tetsugakujiten.app */,
+				08EF664C28F5BE7100F863B2 /* TetsugakujitenTests.xctest */,
+				08EF665628F5BE7100F863B2 /* TetsugakujitenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08EF663E28F5BE7000F863B2 /* Tetsugakujiten */ = {
+			isa = PBXGroup;
+			children = (
+				08EF663F28F5BE7000F863B2 /* TetsugakujitenApp.swift */,
+				08EF664128F5BE7000F863B2 /* ContentView.swift */,
+				08EF666C28F5C27600F863B2 /* GoogleService-Info.plist */,
+				08EF664328F5BE7100F863B2 /* Assets.xcassets */,
+				08EF664528F5BE7100F863B2 /* Preview Content */,
+			);
+			path = Tetsugakujiten;
+			sourceTree = "<group>";
+		};
+		08EF664528F5BE7100F863B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				08EF664628F5BE7100F863B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08EF664F28F5BE7100F863B2 /* TetsugakujitenTests */ = {
+			isa = PBXGroup;
+			children = (
+				08EF665028F5BE7100F863B2 /* TetsugakujitenTests.swift */,
+			);
+			path = TetsugakujitenTests;
+			sourceTree = "<group>";
+		};
+		08EF665928F5BE7100F863B2 /* TetsugakujitenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08EF665A28F5BE7100F863B2 /* TetsugakujitenUITests.swift */,
+				08EF665C28F5BE7100F863B2 /* TetsugakujitenUITestsLaunchTests.swift */,
+			);
+			path = TetsugakujitenUITests;
+			sourceTree = "<group>";
+		};
+		08EF666F28F5C32F00F863B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08EF677A28F5C33B00F863B2 /* ~libswiftPencilKit.tbd */,
+				08EF66F328F5C33200F863B2 /* Accelerate.framework */,
+				08EF68AA28F5C35600F863B2 /* Accessibility.framework */,
+				08EF684428F5C34B00F863B2 /* Accounts.framework */,
+				08EF689528F5C35400F863B2 /* ACIPCBTLib.tbd */,
+				08EF66D028F5C33100F863B2 /* AddressBook.framework */,
+				08EF66CA28F5C33100F863B2 /* AddressBookUI.framework */,
+				08EF67B228F5C34000F863B2 /* AdServices.framework */,
+				08EF679B28F5C34000F863B2 /* AdSupport.framework */,
+				08EF684928F5C34C00F863B2 /* AppClip.framework */,
+				08EF66AE28F5C33000F863B2 /* AppIntents.framework */,
+				08EF678428F5C33C00F863B2 /* AppleConvergedTransport.tbd */,
+				08EF682828F5C34900F863B2 /* AppTrackingTransparency.framework */,
+				08EF671028F5C33300F863B2 /* ARKit.framework */,
+				08EF67A328F5C34000F863B2 /* AssetsLibrary.framework */,
+				08EF67C528F5C34200F863B2 /* AudioToolbox.framework */,
+				08EF679028F5C33C00F863B2 /* AudioUnit.framework */,
+				08EF684528F5C34B00F863B2 /* AuthenticationServices.framework */,
+				08EF67E928F5C34400F863B2 /* AutomatedDeviceEnrollment.framework */,
+				08EF67B328F5C34000F863B2 /* AutomaticAssessmentConfiguration.framework */,
+				08EF68B328F5C35600F863B2 /* AVFAudio.framework */,
+				08EF67D528F5C34200F863B2 /* AVFoundation.framework */,
+				08EF683B28F5C34B00F863B2 /* AVKit.framework */,
+				08EF687628F5C34F00F863B2 /* AVRouting.framework */,
+				08EF678C28F5C33C00F863B2 /* BackgroundAssets.framework */,
+				08EF689A28F5C35400F863B2 /* BackgroundTasks.framework */,
+				08EF677E28F5C33B00F863B2 /* BusinessChat.framework */,
+				08EF66B228F5C33100F863B2 /* CallKit.framework */,
+				08EF68A628F5C35500F863B2 /* CarKey.framework */,
+				08EF683A28F5C34A00F863B2 /* CarPlay.framework */,
+				08EF688E28F5C35300F863B2 /* CarrierBundleUtilities.tbd */,
+				08EF676628F5C33900F863B2 /* CFNetwork.framework */,
+				08EF67AB28F5C34000F863B2 /* Charts.framework */,
+				08EF675728F5C33900F863B2 /* ClassKit.framework */,
+				08EF687928F5C35000F863B2 /* ClockKit.framework */,
+				08EF67E728F5C34300F863B2 /* CloudKit.framework */,
+				08EF67B128F5C34000F863B2 /* ColorSync.framework */,
+				08EF67FF28F5C34500F863B2 /* Combine.framework */,
+				08EF66E628F5C33200F863B2 /* Contacts.framework */,
+				08EF680128F5C34600F863B2 /* ContactsUI.framework */,
+				08EF688628F5C35300F863B2 /* CoreAudio.framework */,
+				08EF681A28F5C34800F863B2 /* CoreAudioKit.framework */,
+				08EF66B928F5C33100F863B2 /* CoreAudioTypes.framework */,
+				08EF685428F5C34C00F863B2 /* CoreBluetooth.framework */,
+				08EF673328F5C33500F863B2 /* CoreData.framework */,
+				08EF66F728F5C33300F863B2 /* CoreFoundation.framework */,
+				08EF67C628F5C34200F863B2 /* CoreGraphics.framework */,
+				08EF68B228F5C35600F863B2 /* CoreHaptics.framework */,
+				08EF671928F5C33400F863B2 /* CoreImage.framework */,
+				08EF675028F5C33600F863B2 /* CoreLocation.framework */,
+				08EF67B528F5C34100F863B2 /* CoreLocationUI.framework */,
+				08EF680428F5C34700F863B2 /* CoreMedia.framework */,
+				08EF66BC28F5C33100F863B2 /* CoreMIDI.framework */,
+				08EF686928F5C34E00F863B2 /* CoreML.framework */,
+				08EF679528F5C33E00F863B2 /* CoreMotion.framework */,
+				08EF66CF28F5C33100F863B2 /* CoreNFC.framework */,
+				08EF671E28F5C33400F863B2 /* CoreServices.framework */,
+				08EF672028F5C33400F863B2 /* CoreSpotlight.framework */,
+				08EF66B828F5C33100F863B2 /* CoreTelephony.framework */,
+				08EF678028F5C33B00F863B2 /* CoreText.framework */,
+				08EF688828F5C35300F863B2 /* CoreTransferable.framework */,
+				08EF67DD28F5C34300F863B2 /* CoreVideo.framework */,
+				08EF671728F5C33400F863B2 /* CreateML.framework */,
+				08EF67CA28F5C34200F863B2 /* CreateMLComponents.framework */,
+				08EF684828F5C34C00F863B2 /* CryptoKit.framework */,
+				08EF688528F5C35300F863B2 /* CryptoTokenKit.framework */,
+				08EF680A28F5C34700F863B2 /* DataDetection.framework */,
+				08EF67C728F5C34200F863B2 /* DeveloperToolsSupport.framework */,
+				08EF671128F5C33300F863B2 /* DeviceActivity.framework */,
+				08EF674F28F5C33600F863B2 /* DeviceCheck.framework */,
+				08EF679828F5C33F00F863B2 /* DeviceDiscoveryExtension.framework */,
+				08EF66D328F5C33100F863B2 /* EventKit.framework */,
+				08EF68AB28F5C35600F863B2 /* EventKitUI.framework */,
+				08EF672B28F5C33400F863B2 /* ExposureNotification.framework */,
+				08EF679628F5C33F00F863B2 /* ExtensionFoundation.framework */,
+				08EF685A28F5C34D00F863B2 /* ExtensionKit.framework */,
+				08EF681928F5C34800F863B2 /* ExternalAccessory.framework */,
+				08EF66F528F5C33200F863B2 /* FamilyControls.framework */,
+				08EF67D028F5C34200F863B2 /* FileProvider.framework */,
+				08EF677228F5C33A00F863B2 /* FileProviderUI.framework */,
+				08EF671B28F5C33400F863B2 /* Foundation.framework */,
+				08EF66E828F5C33200F863B2 /* GameController.framework */,
+				08EF670C28F5C33300F863B2 /* GameKit.framework */,
+				08EF688028F5C35200F863B2 /* GameplayKit.framework */,
+				08EF68A728F5C35500F863B2 /* GLKit.framework */,
+				08EF66B028F5C33000F863B2 /* GroupActivities.framework */,
+				08EF67AE28F5C34000F863B2 /* GSS.framework */,
+				08EF66F128F5C33200F863B2 /* HealthKit.framework */,
+				08EF66DB28F5C33200F863B2 /* HealthKitUI.framework */,
+				08EF671428F5C33300F863B2 /* HomeKit.framework */,
+				08EF681B28F5C34800F863B2 /* iAd.framework */,
+				08EF680628F5C34700F863B2 /* IdentityLookup.framework */,
+				08EF679128F5C33E00F863B2 /* IdentityLookupUI.framework */,
+				08EF670328F5C33300F863B2 /* ImageCaptureCore.framework */,
+				08EF670D28F5C33300F863B2 /* ImageIO.framework */,
+				08EF686428F5C34E00F863B2 /* Intents.framework */,
+				08EF671328F5C33300F863B2 /* IntentsUI.framework */,
+				08EF674028F5C33500F863B2 /* InterfaceBuilderKit.framework */,
+				08EF675F28F5C33900F863B2 /* IOKit.framework */,
+				08EF686A28F5C34E00F863B2 /* IOSurface.framework */,
+				08EF68A528F5C35500F863B2 /* JavaScriptCore.framework */,
+				08EF68A028F5C35500F863B2 /* libAccessibility.tbd */,
+				08EF679228F5C33E00F863B2 /* libacmobileshim.tbd */,
+				08EF687B28F5C35000F863B2 /* libafc.tbd */,
+				08EF66AA28F5C33000F863B2 /* libAHTRestore.tbd */,
+				08EF680228F5C34600F863B2 /* libamsupport.tbd */,
+				08EF66A728F5C33000F863B2 /* libapp_launch_measurement.tbd */,
+				08EF671828F5C33400F863B2 /* libapple_nghttp2.tbd */,
+				08EF67A828F5C34000F863B2 /* libAppleArchive.tbd */,
+				08EF675928F5C33900F863B2 /* libAppleEXR.tbd */,
+				08EF67BD28F5C34100F863B2 /* libAppleHIDSWDFlash.tbd */,
+				08EF67EF28F5C34400F863B2 /* libAppleSSEExt.tbd */,
+				08EF67DC28F5C34300F863B2 /* libAppletTranslationLibrary.tbd */,
+				08EF685D28F5C34D00F863B2 /* libAppPatch.tbd */,
+				08EF672128F5C33400F863B2 /* libarchive.2.tbd */,
+				08EF675428F5C33800F863B2 /* libarchive.tbd */,
+				08EF66F828F5C33300F863B2 /* libARI.tbd */,
+				08EF689328F5C35400F863B2 /* libARIServer.tbd */,
+				08EF68AF28F5C35600F863B2 /* libATCommandStudioDynamic.tbd */,
+				08EF688F28F5C35400F863B2 /* libate.tbd */,
+				08EF67D328F5C34200F863B2 /* libAudioDSPCore.tbd */,
+				08EF673F28F5C33500F863B2 /* libAudioIssueDetector.tbd */,
+				08EF67E128F5C34300F863B2 /* libAudioStatistics.tbd */,
+				08EF686628F5C34E00F863B2 /* libAudioToolboxUtility.tbd */,
+				08EF684228F5C34B00F863B2 /* libauthinstall.tbd */,
+				08EF674C28F5C33600F863B2 /* libAWDProtobufBluetooth.tbd */,
+				08EF67B928F5C34100F863B2 /* libAWDProtobufFacetime.tbd */,
+				08EF67F128F5C34400F863B2 /* libAWDProtobufFacetimeiMessage.tbd */,
+				08EF672528F5C33400F863B2 /* libAWDProtobufGCK.tbd */,
+				08EF67DB28F5C34300F863B2 /* libAWDProtobufLocation.tbd */,
+				08EF680F28F5C34700F863B2 /* libAWDSupport.tbd */,
+				08EF67FB28F5C34500F863B2 /* libAWDSupportFramework.tbd */,
+				08EF68A128F5C35500F863B2 /* libAXSafeCategoryBundle.tbd */,
+				08EF66D728F5C33200F863B2 /* libAXSpeechManager.tbd */,
+				08EF686E28F5C34F00F863B2 /* libBacktraceRecording.tbd */,
+				08EF66F428F5C33200F863B2 /* libBasebandCapabilities.tbd */,
+				08EF670628F5C33300F863B2 /* libBasebandCommandDrivers.tbd */,
+				08EF67E528F5C34300F863B2 /* libBasebandCommandDriversARI.tbd */,
+				08EF679728F5C33F00F863B2 /* libBasebandCommandDriversQMI.tbd */,
+				08EF66A928F5C33000F863B2 /* libBasebandDiagnostic.tbd */,
+				08EF681C28F5C34800F863B2 /* libBasebandManager.tbd */,
+				08EF681F28F5C34800F863B2 /* libBasebandManagerICE.tbd */,
+				08EF67F728F5C34400F863B2 /* libBASupport.tbd */,
+				08EF66BE28F5C33100F863B2 /* libBBUpdaterDynamic_stubs.tbd */,
+				08EF67FA28F5C34400F863B2 /* libBBUpdaterDynamic.tbd */,
+				08EF674828F5C33500F863B2 /* libBKDM1.tbd */,
+				08EF678328F5C33C00F863B2 /* libBKDM2.tbd */,
+				08EF67CF28F5C34200F863B2 /* libboringssl.tbd */,
+				08EF689828F5C35400F863B2 /* libbsm.0.tbd */,
+				08EF66E728F5C33200F863B2 /* libbsm.tbd */,
+				08EF670A28F5C33300F863B2 /* libbz2.1.0.8.tbd */,
+				08EF66E528F5C33200F863B2 /* libbz2.1.0.tbd */,
+				08EF684128F5C34B00F863B2 /* libbz2.tbd */,
+				08EF687328F5C34F00F863B2 /* libc.tbd */,
+				08EF66DD28F5C33200F863B2 /* libc++.1.tbd */,
+				08EF676D28F5C33A00F863B2 /* libc++.tbd */,
+				08EF689D28F5C35500F863B2 /* libc++abi.tbd */,
+				08EF66D228F5C33100F863B2 /* libcanary_os.tbd */,
+				08EF689B28F5C35400F863B2 /* libcharset.1.0.0.tbd */,
+				08EF676928F5C33A00F863B2 /* libcharset.1.tbd */,
+				08EF683228F5C34A00F863B2 /* libcharset.tbd */,
+				08EF689928F5C35400F863B2 /* libChineseTokenizer.tbd */,
+				08EF671228F5C33300F863B2 /* libcmark-gfm-extensions.tbd */,
+				08EF66E428F5C33200F863B2 /* libcmark-gfm.tbd */,
+				08EF685B28F5C34D00F863B2 /* libcmph.tbd */,
+				08EF66D128F5C33100F863B2 /* libcompression.tbd */,
+				08EF683528F5C34A00F863B2 /* libCoreEntitlements.tbd */,
+				08EF686328F5C34D00F863B2 /* libCoreKE.tbd */,
+				08EF677928F5C33B00F863B2 /* libcoreroutine.tbd */,
+				08EF66FB28F5C33300F863B2 /* libcoretls_cfhelpers.tbd */,
+				08EF685728F5C34C00F863B2 /* libcoretls.tbd */,
+				08EF687428F5C34F00F863B2 /* libCRFSuite.tbd */,
+				08EF682328F5C34800F863B2 /* libCRFSuite0.12.tbd */,
+				08EF680B28F5C34700F863B2 /* libcryptex_core.tbd */,
+				08EF680328F5C34600F863B2 /* libcryptex_interface.tbd */,
+				08EF672928F5C33400F863B2 /* libcryptex_trampoline.tbd */,
+				08EF675228F5C33600F863B2 /* libcryptex.tbd */,
+				08EF66D628F5C33200F863B2 /* libCTGreenTeaLogger.tbd */,
+				08EF687228F5C34F00F863B2 /* libcupolicy.tbd */,
+				08EF689C28F5C35400F863B2 /* libcurses.tbd */,
+				08EF673228F5C33500F863B2 /* libdbm.tbd */,
+				08EF673728F5C33500F863B2 /* libDHCPServer.A.tbd */,
+				08EF683F28F5C34B00F863B2 /* libDHCPServer.tbd */,
+				08EF678128F5C33C00F863B2 /* libdl.tbd */,
+				08EF670B28F5C33300F863B2 /* libdns_services.tbd */,
+				08EF670E28F5C33300F863B2 /* libdpfu.tbd */,
+				08EF675828F5C33900F863B2 /* libdscsym.tbd */,
+				08EF67BF28F5C34100F863B2 /* libeasyperf.tbd */,
+				08EF681828F5C34800F863B2 /* libedit.2.tbd */,
+				08EF676828F5C33A00F863B2 /* libedit.3.0.tbd */,
+				08EF67C428F5C34100F863B2 /* libedit.3.tbd */,
+				08EF688C28F5C35300F863B2 /* libedit.tbd */,
+				08EF67C328F5C34100F863B2 /* libenergytrace.tbd */,
+				08EF66C728F5C33100F863B2 /* libETLDIAGLoggingDynamic.tbd */,
+				08EF678F28F5C33C00F863B2 /* libETLDLFDynamic.tbd */,
+				08EF66DC28F5C33200F863B2 /* libETLDLOADCoreDumpDynamic.tbd */,
+				08EF677028F5C33A00F863B2 /* libETLDLOADDynamic.tbd */,
+				08EF66A828F5C33000F863B2 /* libETLDMCDynamic.tbd */,
+				08EF674D28F5C33600F863B2 /* libETLDynamic.tbd */,
+				08EF672D28F5C33400F863B2 /* libETLEFSDumpDynamic.tbd */,
+				08EF678A28F5C33C00F863B2 /* libETLSAHDynamic.tbd */,
+				08EF66C528F5C33100F863B2 /* libexpat.1.tbd */,
+				08EF674728F5C33500F863B2 /* libexpat.tbd */,
+				08EF66EA28F5C33200F863B2 /* libexslt.0.tbd */,
+				08EF677728F5C33B00F863B2 /* libexslt.tbd */,
+				08EF67AF28F5C34000F863B2 /* libextension.tbd */,
+				08EF67CB28F5C34200F863B2 /* libFaultOrdering.tbd */,
+				08EF684E28F5C34C00F863B2 /* libFDR.tbd */,
+				08EF680828F5C34700F863B2 /* libFDRDecode.tbd */,
+				08EF686F28F5C34F00F863B2 /* libffi-trampolines.tbd */,
+				08EF672E28F5C33400F863B2 /* libffi.tbd */,
+				08EF686B28F5C34E00F863B2 /* libfire2.tbd */,
+				08EF687728F5C34F00F863B2 /* libfire3.tbd */,
+				08EF66CD28F5C33100F863B2 /* libfire6.tbd */,
+				08EF66D928F5C33200F863B2 /* libfire7.tbd */,
+				08EF679D28F5C34000F863B2 /* libform.5.4.tbd */,
+				08EF672F28F5C33400F863B2 /* libform.tbd */,
+				08EF67F528F5C34400F863B2 /* libFosl_dynamic.tbd */,
+				08EF674E28F5C33600F863B2 /* libgermantok.tbd */,
+				08EF677528F5C33B00F863B2 /* libgmalloc.tbd */,
+				08EF66E028F5C33200F863B2 /* libH5Dynamic.tbd */,
+				08EF672C28F5C33400F863B2 /* libHDLCDynamic.tbd */,
+				08EF683128F5C34A00F863B2 /* libheimdal-asn1.tbd */,
+				08EF67C228F5C34100F863B2 /* libICEClient.tbd */,
+				08EF675A28F5C33900F863B2 /* libiconv.2.4.0.tbd */,
+				08EF67D928F5C34300F863B2 /* libiconv.2.tbd */,
+				08EF67B728F5C34100F863B2 /* libiconv.tbd */,
+				08EF683D28F5C34B00F863B2 /* libicucore.A.tbd */,
+				08EF68B128F5C35600F863B2 /* libicucore.tbd */,
+				08EF676528F5C33900F863B2 /* libimg4.tbd */,
+				08EF66F228F5C33200F863B2 /* libInFieldCollection.tbd */,
+				08EF681E28F5C34800F863B2 /* libinfo.tbd */,
+				08EF66F928F5C33300F863B2 /* libIOABP.tbd */,
+				08EF679928F5C33F00F863B2 /* libIOAccessoryManager.tbd */,
+				08EF676E28F5C33A00F863B2 /* libIOACIPC.tbd */,
+				08EF677C28F5C33B00F863B2 /* libIOACIPCBB.tbd */,
+				08EF689728F5C35400F863B2 /* libIOReport.tbd */,
+				08EF677628F5C33B00F863B2 /* libipconfig.tbd */,
+				08EF689428F5C35400F863B2 /* libipsec.A.tbd */,
+				08EF681728F5C34700F863B2 /* libipsec.tbd */,
+				08EF677328F5C33A00F863B2 /* libKTLDynamic.tbd */,
+				08EF68AC28F5C35600F863B2 /* libktrace.tbd */,
+				08EF67A928F5C34000F863B2 /* liblangid.tbd */,
+				08EF683C28F5C34B00F863B2 /* libLeaksAtExit.tbd */,
+				08EF687028F5C34F00F863B2 /* libllvm-flatbuffers.tbd */,
+				08EF688328F5C35300F863B2 /* libLLVM.tbd */,
+				08EF681028F5C34700F863B2 /* liblockdown.tbd */,
+				08EF680E28F5C34700F863B2 /* liblzma.5.tbd */,
+				08EF687F28F5C35200F863B2 /* liblzma.tbd */,
+				08EF685228F5C34C00F863B2 /* libm.tbd */,
+				08EF684328F5C34B00F863B2 /* libMainThreadChecker.tbd */,
+				08EF66C828F5C33100F863B2 /* libmarisa.tbd */,
+				08EF682728F5C34900F863B2 /* libMatch.1.tbd */,
+				08EF67E028F5C34300F863B2 /* libMatch.tbd */,
+				08EF66DF28F5C33200F863B2 /* libmav_ipc_router_dynamic.tbd */,
+				08EF67D128F5C34200F863B2 /* libmd.tbd */,
+				08EF66B328F5C33100F863B2 /* libmdns.tbd */,
+				08EF683828F5C34A00F863B2 /* libmecab.tbd */,
+				08EF66C028F5C33100F863B2 /* libmecabra.tbd */,
+				08EF67A128F5C34000F863B2 /* libMemoryResourceException.tbd */,
+				08EF66AF28F5C33000F863B2 /* libmenu.5.4.tbd */,
+				08EF685E28F5C34D00F863B2 /* libmenu.tbd */,
+				08EF689228F5C35400F863B2 /* libmis.tbd */,
+				08EF670428F5C33300F863B2 /* libmobileassetd.tbd */,
+				08EF67AA28F5C34000F863B2 /* libMobileCheckpoint.tbd */,
+				08EF684A28F5C34C00F863B2 /* libMobileGestalt.tbd */,
+				08EF678928F5C33C00F863B2 /* libMobileGestaltExtensions.tbd */,
+				08EF66C428F5C33100F863B2 /* libmorphun.tbd */,
+				08EF677D28F5C33B00F863B2 /* libmrc.tbd */,
+				08EF687828F5C34F00F863B2 /* libMTLCapture.tbd */,
+				08EF680C28F5C34700F863B2 /* libMTLHud.tbd */,
+				08EF684F28F5C34C00F863B2 /* libMTLToolsDiagnostics.tbd */,
+				08EF66E128F5C33200F863B2 /* libncurses.5.4.tbd */,
+				08EF685128F5C34C00F863B2 /* libncurses.5.tbd */,
+				08EF66E928F5C33200F863B2 /* libncurses.tbd */,
+				08EF674928F5C33500F863B2 /* libnetquality.tbd */,
+				08EF66D428F5C33100F863B2 /* libnetwork.tbd */,
+				08EF67BB28F5C34100F863B2 /* libnetworkextension.tbd */,
+				08EF674628F5C33500F863B2 /* libNFC_Comet.tbd */,
+				08EF66D528F5C33200F863B2 /* libNFC_HAL.tbd */,
+				08EF682F28F5C34900F863B2 /* libnfrestore.tbd */,
+				08EF680028F5C34600F863B2 /* libnfshared.tbd */,
+				08EF677828F5C33B00F863B2 /* libnfstorage.tbd */,
+				08EF674128F5C33500F863B2 /* libnwswifttls.tbd */,
+				08EF682228F5C34800F863B2 /* libobjc-trampolines.tbd */,
+				08EF67EA28F5C34400F863B2 /* libobjc.A.tbd */,
+				08EF686828F5C34E00F863B2 /* libobjc.tbd */,
+				08EF674A28F5C33500F863B2 /* libolaf.tbd */,
+				08EF66BB28F5C33100F863B2 /* libomadm.tbd */,
+				08EF66EE28F5C33200F863B2 /* libpanel.5.4.tbd */,
+				08EF66D828F5C33200F863B2 /* libpanel.tbd */,
+				08EF688728F5C35300F863B2 /* libParallelCompression.tbd */,
+				08EF676C28F5C33A00F863B2 /* libpartition2_dynamic.tbd */,
+				08EF66C928F5C33100F863B2 /* libPCITransport.tbd */,
+				08EF67F928F5C34400F863B2 /* libperfcheck.tbd */,
+				08EF67F428F5C34400F863B2 /* libPN548_API.tbd */,
+				08EF687C28F5C35000F863B2 /* libpoll.tbd */,
+				08EF68A328F5C35500F863B2 /* libPPM.tbd */,
+				08EF67B628F5C34100F863B2 /* libPPMDataModel.tbd */,
+				08EF680928F5C34700F863B2 /* libprequelite.tbd */,
+				08EF676A28F5C33A00F863B2 /* libproc.tbd */,
+				08EF684028F5C34B00F863B2 /* libprotobuf-lite.tbd */,
+				08EF677F28F5C33B00F863B2 /* libprotobuf.tbd */,
+				08EF66DA28F5C33200F863B2 /* libpthread.tbd */,
+				08EF685F28F5C34D00F863B2 /* libQMIParserDynamic.tbd */,
+				08EF679328F5C33E00F863B2 /* libquic.tbd */,
+				08EF687D28F5C35000F863B2 /* libreadline.tbd */,
+				08EF67F228F5C34400F863B2 /* libRemoteTelephonyTransport.tbd */,
+				08EF67ED28F5C34400F863B2 /* libresolv.9.tbd */,
+				08EF683028F5C34900F863B2 /* libresolv.tbd */,
+				08EF67A728F5C34000F863B2 /* libReverseProxyDevice.tbd */,
+				08EF68A428F5C35500F863B2 /* libRoseBooter.tbd */,
+				08EF681228F5C34700F863B2 /* libRPAC.tbd */,
+				08EF68B028F5C35600F863B2 /* librpcsvc.tbd */,
+				08EF673428F5C33500F863B2 /* libsandbox.1.tbd */,
+				08EF682B28F5C34900F863B2 /* libsandbox.tbd */,
+				08EF66AD28F5C33000F863B2 /* libskit.tbd */,
+				08EF673928F5C33500F863B2 /* libSLAMDynamic.tbd */,
+				08EF66FD28F5C33300F863B2 /* libSMC.tbd */,
+				08EF66ED28F5C33200F863B2 /* libSoftwareUpdateSSO.tbd */,
+				08EF67AD28F5C34000F863B2 /* libsp.tbd */,
+				08EF66E328F5C33200F863B2 /* libSpatial.tbd */,
+				08EF67E628F5C34300F863B2 /* libspindump.tbd */,
+				08EF686228F5C34D00F863B2 /* libsqlite3.0.tbd */,
+				08EF678228F5C33C00F863B2 /* libsqlite3.tbd */,
+				08EF66EF28F5C33200F863B2 /* libswift_Concurrency.tbd */,
+				08EF670828F5C33300F863B2 /* libswift_RegexParser.tbd */,
+				08EF673E28F5C33500F863B2 /* libswift_StringProcessing.tbd */,
+				08EF67C828F5C34200F863B2 /* libswiftAccelerate.tbd */,
+				08EF67DA28F5C34300F863B2 /* libswiftAppleArchive.tbd */,
+				08EF686728F5C34E00F863B2 /* libswiftARKit.tbd */,
+				08EF66BD28F5C33100F863B2 /* libswiftAssetsLibrary.tbd */,
+				08EF66BA28F5C33100F863B2 /* libswiftAuthenticationServicesSwiftSDKOverlay.a */,
+				08EF67EB28F5C34400F863B2 /* libswiftAVFoundation.tbd */,
+				08EF67A028F5C34000F863B2 /* libswiftCallKit.tbd */,
+				08EF686C28F5C34E00F863B2 /* libswiftCarPlay.tbd */,
+				08EF678B28F5C33C00F863B2 /* libswiftCloudKit.tbd */,
+				08EF671D28F5C33400F863B2 /* libswiftCompression.tbd */,
+				08EF67D728F5C34200F863B2 /* libswiftContacts.tbd */,
+				08EF684628F5C34B00F863B2 /* libswiftCore.tbd */,
+				08EF67B428F5C34100F863B2 /* libswiftCoreAudio.tbd */,
+				08EF672328F5C33400F863B2 /* libswiftCoreData.tbd */,
+				08EF66C228F5C33100F863B2 /* libswiftCoreFoundation.tbd */,
+				08EF67A228F5C34000F863B2 /* libswiftCoreGraphics.tbd */,
+				08EF67C928F5C34200F863B2 /* libswiftCoreImage.tbd */,
+				08EF686528F5C34E00F863B2 /* libswiftCoreLocation.tbd */,
+				08EF66BF28F5C33100F863B2 /* libswiftCoreMedia.tbd */,
+				08EF66CB28F5C33100F863B2 /* libswiftCoreMIDI.tbd */,
+				08EF67BE28F5C34100F863B2 /* libswiftCoreML.tbd */,
+				08EF684C28F5C34C00F863B2 /* libswiftCoreNFC.tbd */,
+				08EF681128F5C34700F863B2 /* libswiftCryptoTokenKit.tbd */,
+				08EF688228F5C35200F863B2 /* libswiftDarwin.tbd */,
+				08EF66B528F5C33100F863B2 /* libswiftDataDetection.tbd */,
+				08EF675328F5C33700F863B2 /* libswiftDemangle.tbd */,
+				08EF66FC28F5C33300F863B2 /* libswiftDispatch.tbd */,
+				08EF689F28F5C35500F863B2 /* libswiftDistributed.tbd */,
+				08EF682D28F5C34900F863B2 /* libswiftExtensionFoundation.tbd */,
+				08EF68AD28F5C35600F863B2 /* libswiftExtensionKit.tbd */,
+				08EF67D628F5C34200F863B2 /* libswiftFileProvider.tbd */,
+				08EF673628F5C33500F863B2 /* libswiftFoundation.tbd */,
+				08EF676328F5C33900F863B2 /* libswiftGameplayKit.tbd */,
+				08EF67A628F5C34000F863B2 /* libswiftGLKit.tbd */,
+				08EF66EB28F5C33200F863B2 /* libswiftHealthKit_Private.tbd */,
+				08EF670928F5C33300F863B2 /* libswiftHealthKit.tbd */,
+				08EF66AC28F5C33000F863B2 /* libswiftHomeKit.tbd */,
+				08EF686128F5C34D00F863B2 /* libswiftIdentityLookup.tbd */,
+				08EF672828F5C33400F863B2 /* libswiftIntents.tbd */,
+				08EF67F028F5C34400F863B2 /* libswiftMapKit.tbd */,
+				08EF689628F5C35400F863B2 /* libswiftMediaPlayer.tbd */,
+				08EF675628F5C33900F863B2 /* libswiftMetal.tbd */,
+				08EF67B828F5C34100F863B2 /* libswiftMetalKit.tbd */,
+				08EF66A628F5C33000F863B2 /* libswiftMetricKit.tbd */,
+				08EF67CE28F5C34200F863B2 /* libswiftMLCompute.tbd */,
+				08EF66B728F5C33100F863B2 /* libswiftModelIO.tbd */,
+				08EF67BC28F5C34100F863B2 /* libswiftNaturalLanguage.tbd */,
+				08EF67F828F5C34400F863B2 /* libswiftNearbyInteraction.tbd */,
+				08EF688128F5C35200F863B2 /* libswiftNetwork.tbd */,
+				08EF681328F5C34700F863B2 /* libswiftObjectiveC.tbd */,
+				08EF686D28F5C34E00F863B2 /* libswiftos.tbd */,
+				08EF67E828F5C34400F863B2 /* libswiftOSLog.tbd */,
+				08EF68AE28F5C35600F863B2 /* libswiftPassKit.tbd */,
+				08EF66E228F5C33200F863B2 /* libswiftPencilKit.tbd */,
+				08EF673128F5C33500F863B2 /* libswiftPhotos.tbd */,
+				08EF66FA28F5C33300F863B2 /* libswiftPhotosUI.tbd */,
+				08EF67FC28F5C34500F863B2 /* libswiftQuartzCore.tbd */,
+				08EF675128F5C33600F863B2 /* libswiftQuickLook.tbd */,
+				08EF68A228F5C35500F863B2 /* libswiftRegexBuilder.tbd */,
+				08EF678628F5C33C00F863B2 /* libswiftRemoteMirror.tbd */,
+				08EF67E228F5C34300F863B2 /* libswiftSceneKit.tbd */,
+				08EF678828F5C33C00F863B2 /* libswiftShazamKit.tbd */,
+				08EF670028F5C33300F863B2 /* libswiftsimd.tbd */,
+				08EF680528F5C34700F863B2 /* libswiftSoundAnalysis_Private.tbd */,
+				08EF672228F5C33400F863B2 /* libswiftSoundAnalysis.tbd */,
+				08EF67AC28F5C34000F863B2 /* libswiftSpatial.tbd */,
+				08EF686028F5C34D00F863B2 /* libswiftSpeech.tbd */,
+				08EF671A28F5C33400F863B2 /* libswiftSpriteKit.tbd */,
+				08EF685928F5C34D00F863B2 /* libswiftSwiftOnoneSupport.tbd */,
+				08EF679E28F5C34000F863B2 /* libswiftSystem_Foundation.tbd */,
+				08EF685628F5C34C00F863B2 /* libswiftSystem.tbd */,
+				08EF683328F5C34A00F863B2 /* libswiftUIKit.tbd */,
+				08EF683E28F5C34B00F863B2 /* libswiftUniformTypeIdentifiers.tbd */,
+				08EF679C28F5C34000F863B2 /* libswiftVision.tbd */,
+				08EF681D28F5C34800F863B2 /* libswiftWebKit.tbd */,
+				08EF67D428F5C34200F863B2 /* libsysdiagnose.tbd */,
+				08EF678D28F5C33C00F863B2 /* libsysmon.tbd */,
+				08EF66FE28F5C33300F863B2 /* libSystem_asan.tbd */,
+				08EF682928F5C34900F863B2 /* libSystem.B_asan.tbd */,
+				08EF673A28F5C33500F863B2 /* libSystem.B.tbd */,
+				08EF67FD28F5C34500F863B2 /* libSystem.tbd */,
+				08EF677128F5C33A00F863B2 /* libSystemHealth.tbd */,
+				08EF678528F5C33C00F863B2 /* libsystemstats.tbd */,
+				08EF671F28F5C33400F863B2 /* libtailspin.tbd */,
+				08EF678E28F5C33C00F863B2 /* libTelephonyBasebandDynamic.tbd */,
+				08EF688A28F5C35300F863B2 /* libTelephonyDebugDynamic.tbd */,
+				08EF675528F5C33900F863B2 /* libTelephonyIOKitDynamic.tbd */,
+				08EF680728F5C34700F863B2 /* libTelephonyUSBDynamic.tbd */,
+				08EF670228F5C33300F863B2 /* libTelephonyUtilDynamic.tbd */,
+				08EF683628F5C34A00F863B2 /* libtermcap.tbd */,
+				08EF682528F5C34900F863B2 /* libThaiTokenizer.tbd */,
+				08EF687128F5C34F00F863B2 /* libThreadExternalCommissioner.tbd */,
+				08EF682C28F5C34900F863B2 /* libtidy.A.tbd */,
+				08EF676028F5C33900F863B2 /* libtidy.tbd */,
+				08EF67D228F5C34200F863B2 /* libTiSerialFlasher.tbd */,
+				08EF682028F5C34800F863B2 /* libTLE.tbd */,
+				08EF674228F5C33500F863B2 /* libtzupdate.tbd */,
+				08EF675B28F5C33900F863B2 /* libUSBCfwflasher.tbd */,
+				08EF676128F5C33900F863B2 /* libUSBTransport.tbd */,
+				08EF67EE28F5C34400F863B2 /* libusrtcp.tbd */,
+				08EF66CE28F5C33100F863B2 /* libutil.tbd */,
+				08EF679F28F5C34000F863B2 /* libutil1.0.tbd */,
+				08EF688B28F5C35300F863B2 /* libWAPI.tbd */,
+				08EF687E28F5C35000F863B2 /* libWirelessAudioIPC.tbd */,
+				08EF681528F5C34700F863B2 /* libxml2.2.tbd */,
+				08EF676728F5C33A00F863B2 /* libxml2.tbd */,
+				08EF66F028F5C33200F863B2 /* libxpc_datastores.tbd */,
+				08EF67D828F5C34300F863B2 /* libxslt.1.tbd */,
+				08EF676F28F5C33A00F863B2 /* libxslt.tbd */,
+				08EF682628F5C34900F863B2 /* libz.1.1.3.tbd */,
+				08EF675C28F5C33900F863B2 /* libz.1.2.5.tbd */,
+				08EF67A428F5C34000F863B2 /* libz.1.2.8.tbd */,
+				08EF67B028F5C34000F863B2 /* libz.1.2.11.tbd */,
+				08EF689128F5C35400F863B2 /* libz.1.tbd */,
+				08EF67FE28F5C34500F863B2 /* libz.tbd */,
+				08EF67E328F5C34300F863B2 /* LinkPresentation.framework */,
+				08EF68A928F5C35600F863B2 /* LocalAuthentication.framework */,
+				08EF679A28F5C33F00F863B2 /* LocalAuthenticationEmbeddedUI.framework */,
+				08EF66AB28F5C33000F863B2 /* ManagedSettings.framework */,
+				08EF675D28F5C33900F863B2 /* ManagedSettingsUI.framework */,
+				08EF670F28F5C33300F863B2 /* MapKit.framework */,
+				08EF685528F5C34C00F863B2 /* Matter.framework */,
+				08EF676B28F5C33A00F863B2 /* MediaAccessibility.framework */,
+				08EF66B428F5C33100F863B2 /* MediaPlayer.framework */,
+				08EF674328F5C33500F863B2 /* MediaSetup.framework */,
+				08EF685C28F5C34D00F863B2 /* MediaToolbox.framework */,
+				08EF67CC28F5C34200F863B2 /* Messages.framework */,
+				08EF688D28F5C35300F863B2 /* MessageUI.framework */,
+				08EF66FF28F5C33300F863B2 /* Metal.framework */,
+				08EF672A28F5C33400F863B2 /* MetalFX.framework */,
+				08EF675E28F5C33900F863B2 /* MetalKit.framework */,
+				08EF684B28F5C34C00F863B2 /* MetalPerformanceShaders.framework */,
+				08EF689E28F5C35500F863B2 /* MetalPerformanceShadersGraph.framework */,
+				08EF670528F5C33300F863B2 /* MetricKit.framework */,
+				08EF687A28F5C35000F863B2 /* MLCompute.framework */,
+				08EF676428F5C33900F863B2 /* MobileCoreServices.framework */,
+				08EF66B628F5C33100F863B2 /* ModelIO.framework */,
+				08EF682E28F5C34900F863B2 /* MultipeerConnectivity.framework */,
+				08EF683728F5C34A00F863B2 /* MusicKit.framework */,
+				08EF673028F5C33400F863B2 /* NaturalLanguage.framework */,
+				08EF68A828F5C35600F863B2 /* NearbyInteraction.framework */,
+				08EF673528F5C33500F863B2 /* Network.framework */,
+				08EF66DE28F5C33200F863B2 /* NetworkExtension.framework */,
+				08EF687528F5C34F00F863B2 /* NewsstandKit.framework */,
+				08EF66C328F5C33100F863B2 /* NotificationCenter.framework */,
+				08EF689028F5C35400F863B2 /* OpenAL.framework */,
+				08EF671528F5C33400F863B2 /* OpenGLES.framework */,
+				08EF67CD28F5C34200F863B2 /* OSLog.framework */,
+				08EF673C28F5C33500F863B2 /* PassKit.framework */,
+				08EF68B428F5C35700F863B2 /* PDFKit.framework */,
+				08EF67F328F5C34400F863B2 /* PencilKit.framework */,
+				08EF66CC28F5C33100F863B2 /* PHASE.framework */,
+				08EF673B28F5C33500F863B2 /* Photos.framework */,
+				08EF681628F5C34700F863B2 /* PhotosUI.framework */,
+				08EF683428F5C34A00F863B2 /* ProximityReader.framework */,
+				08EF66EC28F5C33200F863B2 /* PushKit.framework */,
+				08EF678728F5C33C00F863B2 /* PushToTalk.framework */,
+				08EF685328F5C34C00F863B2 /* Python3.framework */,
+				08EF67EC28F5C34400F863B2 /* QuartzCore.framework */,
+				08EF681428F5C34700F863B2 /* QuickLook.framework */,
+				08EF688928F5C35300F863B2 /* QuickLookThumbnailing.framework */,
+				08EF682428F5C34900F863B2 /* RealityFoundation.framework */,
+				08EF672428F5C33400F863B2 /* RealityKit.framework */,
+				08EF67A528F5C34000F863B2 /* ReplayKit.framework */,
+				08EF67DE28F5C34300F863B2 /* RoomPlan.framework */,
+				08EF673D28F5C33500F863B2 /* SafariServices.framework */,
+				08EF682A28F5C34900F863B2 /* SafetyKit.framework */,
+				08EF66C628F5C33100F863B2 /* SceneKit.framework */,
+				08EF674428F5C33500F863B2 /* ScreenTime.framework */,
+				08EF67C028F5C34100F863B2 /* Security.framework */,
+				08EF676228F5C33900F863B2 /* SensorKit.framework */,
+				08EF671C28F5C33400F863B2 /* SharedWithYou.framework */,
+				08EF677428F5C33B00F863B2 /* SharedWithYouCore.framework */,
+				08EF673828F5C33500F863B2 /* ShazamKit.framework */,
+				08EF683928F5C34A00F863B2 /* Social.framework */,
+				08EF66B128F5C33000F863B2 /* SoundAnalysis.framework */,
+				08EF680D28F5C34700F863B2 /* Speech.framework */,
+				08EF672628F5C33400F863B2 /* SpriteKit.framework */,
+				08EF684D28F5C34C00F863B2 /* StoreKit.framework */,
+				08EF685828F5C34D00F863B2 /* StoreKitTest.framework */,
+				08EF67C128F5C34100F863B2 /* SwiftUI.framework */,
+				08EF679428F5C33E00F863B2 /* SystemConfiguration.framework */,
+				08EF674B28F5C33500F863B2 /* TabularData.framework */,
+				08EF684728F5C34B00F863B2 /* ThreadNetwork.framework */,
+				08EF67BA28F5C34100F863B2 /* Twitter.framework */,
+				08EF677B28F5C33B00F863B2 /* UIKit.framework */,
+				08EF67F628F5C34400F863B2 /* UniformTypeIdentifiers.framework */,
+				08EF672728F5C33400F863B2 /* UserNotifications.framework */,
+				08EF66F628F5C33300F863B2 /* UserNotificationsUI.framework */,
+				08EF682128F5C34800F863B2 /* VideoSubscriberAccount.framework */,
+				08EF66C128F5C33100F863B2 /* VideoToolbox.framework */,
+				08EF671628F5C33400F863B2 /* Vision.framework */,
+				08EF67DF28F5C34300F863B2 /* VisionKit.framework */,
+				08EF670728F5C33300F863B2 /* WatchConnectivity.framework */,
+				08EF685028F5C34C00F863B2 /* WeatherKit.framework */,
+				08EF670128F5C33300F863B2 /* WebKit.framework */,
+				08EF688428F5C35300F863B2 /* WidgetKit.framework */,
+				08EF674528F5C33500F863B2 /* XcodeKit.framework */,
+				08EF67E428F5C34300F863B2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08EF663B28F5BE7000F863B2 /* Tetsugakujiten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08EF666028F5BE7100F863B2 /* Build configuration list for PBXNativeTarget "Tetsugakujiten" */;
+			buildPhases = (
+				08EF663828F5BE7000F863B2 /* Sources */,
+				08EF663928F5BE7000F863B2 /* Frameworks */,
+				08EF663A28F5BE7000F863B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tetsugakujiten;
+			packageProductDependencies = (
+				08EF667028F5C32F00F863B2 /* FirebaseAnalytics */,
+				08EF667228F5C32F00F863B2 /* FirebaseAnalyticsOnDeviceConversion */,
+				08EF667428F5C32F00F863B2 /* FirebaseAnalyticsSwift */,
+				08EF667628F5C32F00F863B2 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				08EF667828F5C32F00F863B2 /* FirebaseAppCheck */,
+				08EF667A28F5C32F00F863B2 /* FirebaseAppDistribution-Beta */,
+				08EF667C28F5C32F00F863B2 /* FirebaseAuth */,
+				08EF667E28F5C32F00F863B2 /* FirebaseAuthCombine-Community */,
+				08EF668028F5C32F00F863B2 /* FirebaseCrashlytics */,
+				08EF668228F5C32F00F863B2 /* FirebaseDatabase */,
+				08EF668428F5C32F00F863B2 /* FirebaseDatabaseSwift */,
+				08EF668628F5C32F00F863B2 /* FirebaseDynamicLinks */,
+				08EF668828F5C32F00F863B2 /* FirebaseFirestore */,
+				08EF668A28F5C32F00F863B2 /* FirebaseFirestoreCombine-Community */,
+				08EF668C28F5C32F00F863B2 /* FirebaseFirestoreSwift */,
+				08EF668E28F5C32F00F863B2 /* FirebaseFunctions */,
+				08EF669028F5C32F00F863B2 /* FirebaseFunctionsCombine-Community */,
+				08EF669228F5C32F00F863B2 /* FirebaseInAppMessaging-Beta */,
+				08EF669428F5C32F00F863B2 /* FirebaseInAppMessagingSwift-Beta */,
+				08EF669628F5C32F00F863B2 /* FirebaseInstallations */,
+				08EF669828F5C32F00F863B2 /* FirebaseMessaging */,
+				08EF669A28F5C32F00F863B2 /* FirebaseMLModelDownloader */,
+				08EF669C28F5C32F00F863B2 /* FirebasePerformance */,
+				08EF669E28F5C33000F863B2 /* FirebaseRemoteConfig */,
+				08EF66A028F5C33000F863B2 /* FirebaseRemoteConfigSwift */,
+				08EF66A228F5C33000F863B2 /* FirebaseStorage */,
+				08EF66A428F5C33000F863B2 /* FirebaseStorageCombine-Community */,
+			);
+			productName = Tetsugakujiten;
+			productReference = 08EF663C28F5BE7000F863B2 /* Tetsugakujiten.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08EF664B28F5BE7100F863B2 /* TetsugakujitenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08EF666328F5BE7100F863B2 /* Build configuration list for PBXNativeTarget "TetsugakujitenTests" */;
+			buildPhases = (
+				08EF664828F5BE7100F863B2 /* Sources */,
+				08EF664928F5BE7100F863B2 /* Frameworks */,
+				08EF664A28F5BE7100F863B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08EF664E28F5BE7100F863B2 /* PBXTargetDependency */,
+			);
+			name = TetsugakujitenTests;
+			productName = TetsugakujitenTests;
+			productReference = 08EF664C28F5BE7100F863B2 /* TetsugakujitenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08EF665528F5BE7100F863B2 /* TetsugakujitenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08EF666628F5BE7100F863B2 /* Build configuration list for PBXNativeTarget "TetsugakujitenUITests" */;
+			buildPhases = (
+				08EF665228F5BE7100F863B2 /* Sources */,
+				08EF665328F5BE7100F863B2 /* Frameworks */,
+				08EF665428F5BE7100F863B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08EF665828F5BE7100F863B2 /* PBXTargetDependency */,
+			);
+			name = TetsugakujitenUITests;
+			productName = TetsugakujitenUITests;
+			productReference = 08EF665628F5BE7100F863B2 /* TetsugakujitenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08EF663428F5BE7000F863B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					08EF663B28F5BE7000F863B2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					08EF664B28F5BE7100F863B2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 08EF663B28F5BE7000F863B2;
+					};
+					08EF665528F5BE7100F863B2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 08EF663B28F5BE7000F863B2;
+					};
+				};
+			};
+			buildConfigurationList = 08EF663728F5BE7000F863B2 /* Build configuration list for PBXProject "Tetsugakujiten" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08EF663328F5BE7000F863B2;
+			packageReferences = (
+				08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 08EF663D28F5BE7000F863B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08EF663B28F5BE7000F863B2 /* Tetsugakujiten */,
+				08EF664B28F5BE7100F863B2 /* TetsugakujitenTests */,
+				08EF665528F5BE7100F863B2 /* TetsugakujitenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08EF663A28F5BE7000F863B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EF664728F5BE7100F863B2 /* Preview Assets.xcassets in Resources */,
+				08EF664428F5BE7100F863B2 /* Assets.xcassets in Resources */,
+				08EF666D28F5C27600F863B2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EF664A28F5BE7100F863B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EF665428F5BE7100F863B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08EF663828F5BE7000F863B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EF664228F5BE7000F863B2 /* ContentView.swift in Sources */,
+				08EF664028F5BE7000F863B2 /* TetsugakujitenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EF664828F5BE7100F863B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EF665128F5BE7100F863B2 /* TetsugakujitenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EF665228F5BE7100F863B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EF665B28F5BE7100F863B2 /* TetsugakujitenUITests.swift in Sources */,
+				08EF665D28F5BE7100F863B2 /* TetsugakujitenUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08EF664E28F5BE7100F863B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08EF663B28F5BE7000F863B2 /* Tetsugakujiten */;
+			targetProxy = 08EF664D28F5BE7100F863B2 /* PBXContainerItemProxy */;
+		};
+		08EF665828F5BE7100F863B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08EF663B28F5BE7000F863B2 /* Tetsugakujiten */;
+			targetProxy = 08EF665728F5BE7100F863B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08EF665E28F5BE7100F863B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08EF665F28F5BE7100F863B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08EF666128F5BE7100F863B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tetsugakujiten/Preview Content\"";
+				DEVELOPMENT_TEAM = CF55746KSJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "哲学辞典";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mi911205icloud.Tetsugakujiten;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08EF666228F5BE7100F863B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tetsugakujiten/Preview Content\"";
+				DEVELOPMENT_TEAM = CF55746KSJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "哲学辞典";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mi911205icloud.Tetsugakujiten;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08EF666428F5BE7100F863B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF55746KSJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mi911205-icloud.com.TetsugakujitenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tetsugakujiten.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tetsugakujiten";
+			};
+			name = Debug;
+		};
+		08EF666528F5BE7100F863B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF55746KSJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mi911205-icloud.com.TetsugakujitenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tetsugakujiten.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tetsugakujiten";
+			};
+			name = Release;
+		};
+		08EF666728F5BE7100F863B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF55746KSJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mi911205-icloud.com.TetsugakujitenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tetsugakujiten;
+			};
+			name = Debug;
+		};
+		08EF666828F5BE7100F863B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF55746KSJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mi911205-icloud.com.TetsugakujitenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tetsugakujiten;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08EF663728F5BE7000F863B2 /* Build configuration list for PBXProject "Tetsugakujiten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EF665E28F5BE7100F863B2 /* Debug */,
+				08EF665F28F5BE7100F863B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08EF666028F5BE7100F863B2 /* Build configuration list for PBXNativeTarget "Tetsugakujiten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EF666128F5BE7100F863B2 /* Debug */,
+				08EF666228F5BE7100F863B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08EF666328F5BE7100F863B2 /* Build configuration list for PBXNativeTarget "TetsugakujitenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EF666428F5BE7100F863B2 /* Debug */,
+				08EF666528F5BE7100F863B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08EF666628F5BE7100F863B2 /* Build configuration list for PBXNativeTarget "TetsugakujitenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08EF666728F5BE7100F863B2 /* Debug */,
+				08EF666828F5BE7100F863B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		08EF667028F5C32F00F863B2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		08EF667228F5C32F00F863B2 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		08EF667428F5C32F00F863B2 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		08EF667628F5C32F00F863B2 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		08EF667828F5C32F00F863B2 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		08EF667A28F5C32F00F863B2 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		08EF667C28F5C32F00F863B2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		08EF667E28F5C32F00F863B2 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		08EF668028F5C32F00F863B2 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		08EF668228F5C32F00F863B2 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		08EF668428F5C32F00F863B2 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		08EF668628F5C32F00F863B2 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		08EF668828F5C32F00F863B2 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		08EF668A28F5C32F00F863B2 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		08EF668C28F5C32F00F863B2 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		08EF668E28F5C32F00F863B2 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		08EF669028F5C32F00F863B2 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		08EF669228F5C32F00F863B2 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		08EF669428F5C32F00F863B2 /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		08EF669628F5C32F00F863B2 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		08EF669828F5C32F00F863B2 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		08EF669A28F5C32F00F863B2 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		08EF669C28F5C32F00F863B2 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		08EF669E28F5C33000F863B2 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		08EF66A028F5C33000F863B2 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		08EF66A228F5C33000F863B2 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		08EF66A428F5C33000F863B2 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08EF666E28F5C2CE00F863B2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 08EF663428F5BE7000F863B2 /* Project object */;
+}
